@@ -1,0 +1,701 @@
+transaction_id,transaction_date,expense_category,vendor,department,amount_usd,approved_by,payment_method,budget_code,over_budget,recurring,quarter
+TXN10000,2024-05-16,Software Subscriptions,Salesforce,Marketing,2480,MGR10,Direct Debit,BU013,No,Yes,Q4
+TXN10001,2024-02-12,Travel,AWS,Marketing,9970,MGR15,Wire Transfer,BU009,No,No,Q4
+TXN10002,2024-08-05,Marketing,Unknown,HR,1120,MGR18,Corporate Card,BU011,No,Yes,Q1
+TXN10003,2024-02-10,Facilities,OLA Business,Engineering,470,MGR14,Wire Transfer,BU004,No,No,Q1
+TXN10004,2024-08-08,Office Supplies,LegalZoom,Marketing,210,MGR18,Corporate Card,BU002,No,No,Q4
+TXN10005,2024-11-04,Software Subscriptions,Unknown,Operations,910,MGR13,Corporate Card,BU013,No,Yes,Q3
+TXN10006,2024-04-02,Facilities,Salesforce,Engineering,1430,MGR08,Direct Debit,BU013,Yes,No,Q3
+TXN10007,2024-10-06,R&D,Unknown,Operations,670,MGR08,Corporate Card,BU003,Yes,Yes,Q1
+TXN10008,2024-05-30,Travel,Unknown,Operations,1950,MGR15,Wire Transfer,BU012,Yes,No,Q1
+TXN10009,2024-06-13,Training,Salesforce,Marketing,4090,MGR12,Direct Debit,BU004,No,Yes,Q1
+TXN10010,2024-02-22,Marketing,Coursera for Teams,Marketing,150,MGR05,Corporate Card,BU010,No,Yes,Q2
+TXN10011,2024-02-10,Marketing,Coursera for Teams,HR,950,MGR09,Corporate Card,BU012,Yes,Yes,Q1
+TXN10012,2024-06-16,Salaries,WeWork,HR,70,MGR07,Corporate Card,BU008,No,No,Q2
+TXN10013,2024-12-04,Salaries,Unknown,Engineering,250,MGR04,Corporate Card,BU003,Yes,Yes,Q3
+TXN10014,2024-05-31,Salaries,LegalZoom,HR,1580,MGR02,Corporate Card,BU008,No,Yes,Q1
+TXN10015,2024-06-05,Salaries,Salesforce,Sales,630,MGR14,Reimbursement,BU006,No,Yes,Q1
+TXN10016,2024-08-16,Salaries,LegalZoom,Engineering,100,MGR20,Reimbursement,BU004,No,Yes,Q2
+TXN10017,2024-11-04,Cloud Infrastructure,Swiggy for Teams,Operations,2340,MGR01,Wire Transfer,BU014,No,No,Q1
+TXN10018,2024-08-06,Cloud Infrastructure,Zoom,HR,350,MGR08,Corporate Card,BU007,No,No,Q1
+TXN10019,2024-03-26,Salaries,WeWork,HR,1850,MGR07,Reimbursement,BU015,No,No,Q2
+TXN10020,2024-12-19,Software Subscriptions,Zoom,HR,1230,MGR03,Wire Transfer,BU014,Yes,Yes,Q2
+TXN10021,2024-08-15,Cloud Infrastructure,WeWork,Marketing,240,MGR04,Corporate Card,BU011,Yes,Yes,Q3
+TXN10022,2024-06-28,Legal & Compliance,OLA Business,Operations,1890,MGR20,Corporate Card,BU013,No,No,Q1
+TXN10023,2024-08-16,Cloud Infrastructure,Salesforce,HR,970,MGR02,Corporate Card,BU005,No,No,Q4
+TXN10024,2024-01-22,Salaries,Zoom,Finance,820,MGR15,Direct Debit,BU005,No,Yes,Q4
+TXN10025,2024-06-29,Office Supplies,LegalZoom,Finance,380,MGR20,Wire Transfer,BU009,No,No,Q3
+TXN10026,2024-11-10,Cloud Infrastructure,Salesforce,Operations,180,MGR02,Wire Transfer,BU013,No,No,Q1
+TXN10027,2024-08-10,Marketing,LegalZoom,HR,400,MGR08,Wire Transfer,BU003,Yes,Yes,Q2
+TXN10028,2024-05-20,Facilities,Unknown,Sales,390,MGR02,Wire Transfer,BU010,Yes,No,Q3
+TXN10029,2024-11-23,Cloud Infrastructure,Zoom,Sales,1850,MGR13,Corporate Card,BU015,No,Yes,Q4
+TXN10030,2024-01-30,Office Supplies,Unknown,Engineering,90,MGR15,Wire Transfer,BU004,No,No,Q4
+TXN10031,2024-02-08,Salaries,Coursera for Teams,Engineering,3880,MGR08,Reimbursement,BU005,No,No,Q2
+TXN10032,2024-12-09,Facilities,Swiggy for Teams,HR,4150,MGR18,Corporate Card,BU001,No,Yes,Q3
+TXN10033,2024-11-22,Marketing,OLA Business,Engineering,310,MGR07,Direct Debit,BU007,No,No,Q4
+TXN10034,2024-07-26,Salaries,OLA Business,Marketing,3580,MGR02,Corporate Card,BU008,Yes,No,Q4
+TXN10035,2024-07-05,Cloud Infrastructure,Zoom,Sales,200,MGR05,Corporate Card,BU015,No,No,Q3
+TXN10036,2024-09-19,Training,Microsoft,Operations,2570,MGR17,Wire Transfer,BU006,No,Yes,Q2
+TXN10037,2024-12-13,Software Subscriptions,Swiggy for Teams,HR,250,MGR10,Reimbursement,BU009,No,No,Q1
+TXN10038,2024-03-22,Salaries,AWS,HR,2300,MGR08,Wire Transfer,BU003,No,No,Q3
+TXN10039,2024-01-16,Facilities,WeWork,Finance,120,MGR19,Wire Transfer,BU002,No,Yes,Q3
+TXN10040,2024-03-14,R&D,OLA Business,Sales,2440,MGR11,Wire Transfer,BU005,No,Yes,Q4
+TXN10041,2024-11-07,Cloud Infrastructure,Salesforce,Sales,3120,MGR19,Wire Transfer,BU013,Yes,No,Q4
+TXN10042,2024-12-13,R&D,Coursera for Teams,Sales,110,MGR20,Corporate Card,BU009,Yes,No,Q1
+TXN10043,2024-08-12,Salaries,Unknown,Engineering,5480,MGR11,Corporate Card,BU011,No,Yes,Q3
+TXN10044,2024-01-18,Salaries,AWS,Marketing,2260,MGR08,Corporate Card,BU001,No,No,Q2
+TXN10045,2024-03-05,Salaries,Salesforce,Operations,60,MGR10,Corporate Card,BU001,No,No,Q3
+TXN10046,2024-02-04,Travel,Zoom,Engineering,370,MGR05,Corporate Card,BU010,No,Yes,Q3
+TXN10047,2024-04-30,Salaries,Swiggy for Teams,Marketing,2310,MGR17,Wire Transfer,BU003,No,Yes,Q2
+TXN10048,2024-11-26,Salaries,OLA Business,Sales,1580,MGR08,Wire Transfer,BU010,No,No,Q2
+TXN10049,2024-07-06,Facilities,WeWork,Marketing,760,MGR14,Corporate Card,BU003,No,No,Q1
+TXN10050,2024-07-04,Training,AWS,Engineering,2030,MGR10,Corporate Card,BU005,Yes,No,Q1
+TXN10051,2024-07-15,Cloud Infrastructure,OLA Business,Sales,230,MGR09,Corporate Card,BU004,No,Yes,Q4
+TXN10052,2024-10-17,Marketing,Microsoft,Engineering,700,MGR02,Corporate Card,BU006,No,No,Q1
+TXN10053,2024-01-17,Software Subscriptions,Microsoft,Operations,240,MGR18,Corporate Card,BU012,Yes,No,Q1
+TXN10054,2024-11-05,Marketing,Microsoft,Sales,780,MGR19,Wire Transfer,BU008,No,Yes,Q2
+TXN10055,2024-03-19,Cloud Infrastructure,Coursera for Teams,Marketing,2210,MGR06,Corporate Card,BU008,No,Yes,Q4
+TXN10056,2024-12-13,Office Supplies,Unknown,Engineering,1700,MGR14,Wire Transfer,BU015,No,No,Q2
+TXN10057,2024-08-18,Salaries,Zoom,Finance,870,MGR18,Wire Transfer,BU011,No,Yes,Q1
+TXN10058,2024-07-08,Marketing,Salesforce,Marketing,2180,MGR16,Corporate Card,BU004,No,Yes,Q3
+TXN10059,2024-07-09,Training,OLA Business,Marketing,2450,MGR02,Corporate Card,BU001,No,Yes,Q2
+TXN10060,2024-08-15,Facilities,Salesforce,Sales,5750,MGR12,Corporate Card,BU013,No,Yes,Q2
+TXN10061,2024-02-09,Cloud Infrastructure,Salesforce,HR,2700,MGR13,Corporate Card,BU014,Yes,No,Q4
+TXN10062,2024-10-20,Marketing,OLA Business,Marketing,1460,MGR17,Corporate Card,BU014,No,Yes,Q2
+TXN10063,2024-03-11,Salaries,Unknown,Engineering,2040,MGR11,Reimbursement,BU007,No,No,Q4
+TXN10064,2024-09-28,Software Subscriptions,Coursera for Teams,Finance,890,MGR14,Corporate Card,BU006,No,No,Q3
+TXN10065,2024-07-06,Software Subscriptions,Coursera for Teams,Operations,480,MGR14,Direct Debit,BU005,No,No,Q3
+TXN10066,2024-07-22,Software Subscriptions,Swiggy for Teams,Finance,1880,MGR05,Corporate Card,BU004,No,Yes,Q2
+TXN10067,2024-06-09,Software Subscriptions,Zoom,Engineering,1650,MGR10,Reimbursement,BU006,No,No,Q4
+TXN10068,2024-11-28,Software Subscriptions,Swiggy for Teams,Sales,940,MGR13,Wire Transfer,BU008,No,No,Q3
+TXN10069,2024-05-22,Software Subscriptions,Unknown,Engineering,530,MGR06,Corporate Card,BU006,Yes,No,Q1
+TXN10070,2024-05-07,Travel,Salesforce,HR,490,MGR18,Corporate Card,BU003,No,No,Q1
+TXN10071,2024-02-28,Cloud Infrastructure,Zoom,HR,410,MGR16,Wire Transfer,BU009,Yes,No,Q2
+TXN10072,2024-01-14,R&D,Swiggy for Teams,HR,3000,MGR08,Reimbursement,BU003,Yes,No,Q4
+TXN10073,2024-04-05,Facilities,Swiggy for Teams,Marketing,2740,MGR08,Corporate Card,BU004,No,No,Q4
+TXN10074,2024-09-12,Travel,Microsoft,Sales,2600,MGR10,Corporate Card,BU013,No,No,Q3
+TXN10075,2024-09-22,Salaries,Coursera for Teams,HR,190,MGR05,Corporate Card,BU005,No,Yes,Q3
+TXN10076,2024-07-17,Facilities,LegalZoom,Operations,430,MGR15,Corporate Card,BU011,No,Yes,Q2
+TXN10077,2024-10-14,Software Subscriptions,Swiggy for Teams,Operations,490,MGR02,Direct Debit,BU002,No,No,Q3
+TXN10078,2024-03-01,Facilities,AWS,Engineering,320,MGR18,Wire Transfer,BU011,No,Yes,Q4
+TXN10079,2024-05-14,Salaries,Microsoft,HR,6220,MGR14,Corporate Card,BU010,No,No,Q3
+TXN10080,2024-05-13,R&D,Salesforce,Marketing,1080,MGR14,Corporate Card,BU015,No,Yes,Q1
+TXN10081,2024-12-26,Facilities,WeWork,Operations,990,MGR18,Corporate Card,BU011,No,No,Q1
+TXN10082,2024-08-16,Cloud Infrastructure,Coursera for Teams,Finance,380,MGR17,Reimbursement,BU010,No,No,Q2
+TXN10083,2024-04-19,Cloud Infrastructure,Unknown,Sales,1870,MGR05,Direct Debit,BU002,No,Yes,Q3
+TXN10084,2024-11-09,Software Subscriptions,OLA Business,Finance,9230,MGR13,Corporate Card,BU006,No,No,Q4
+TXN10085,2024-05-26,Travel,Unknown,Operations,730,MGR08,Corporate Card,BU015,No,No,Q2
+TXN10086,2024-12-21,Salaries,Microsoft,Operations,500,MGR09,Direct Debit,BU014,No,No,Q2
+TXN10087,2024-09-08,Software Subscriptions,AWS,Engineering,600,MGR07,Corporate Card,BU002,Yes,No,Q3
+TXN10088,2024-04-12,Travel,Unknown,Engineering,450,MGR11,Corporate Card,BU010,No,Yes,Q4
+TXN10089,2024-03-03,Marketing,AWS,HR,660,MGR03,Corporate Card,BU001,Yes,No,Q2
+TXN10090,2024-03-10,Facilities,OLA Business,Sales,320,MGR15,Corporate Card,BU008,No,Yes,Q2
+TXN10091,2024-02-07,Travel,WeWork,HR,230,MGR12,Corporate Card,BU010,Yes,Yes,Q1
+TXN10092,2024-08-19,Marketing,Coursera for Teams,Engineering,650,MGR03,Direct Debit,BU014,No,No,Q2
+TXN10093,2024-03-29,Salaries,Coursera for Teams,Marketing,730,MGR18,Wire Transfer,BU010,No,No,Q4
+TXN10094,2024-08-15,Salaries,LegalZoom,Sales,480,MGR07,Corporate Card,BU013,Yes,No,Q2
+TXN10095,2024-02-14,Software Subscriptions,AWS,Marketing,3820,MGR02,Corporate Card,BU001,No,No,Q3
+TXN10096,2024-12-15,R&D,OLA Business,HR,1100,MGR09,Wire Transfer,BU010,No,Yes,Q3
+TXN10097,2024-06-12,Salaries,Swiggy for Teams,Engineering,1620,MGR13,Corporate Card,BU014,No,No,Q2
+TXN10098,2024-12-07,Salaries,Swiggy for Teams,Sales,1670,MGR20,Corporate Card,BU006,No,No,Q1
+TXN10099,2024-06-26,Travel,Salesforce,HR,750,MGR20,Corporate Card,BU012,Yes,Yes,Q4
+TXN10100,2024-12-29,Salaries,AWS,Operations,860,MGR02,Wire Transfer,BU014,No,No,Q3
+TXN10101,2024-02-03,Legal & Compliance,Zoom,HR,240,MGR03,Corporate Card,BU001,No,No,Q3
+TXN10102,2024-10-08,Software Subscriptions,Unknown,Finance,1460,MGR07,Corporate Card,BU008,No,Yes,Q3
+TXN10103,2024-10-04,Marketing,Salesforce,Operations,450,MGR19,Corporate Card,BU014,No,No,Q4
+TXN10104,2024-05-28,Travel,Salesforce,Marketing,310,MGR18,Corporate Card,BU005,Yes,Yes,Q2
+TXN10105,2024-06-02,R&D,Salesforce,Operations,3170,MGR07,Direct Debit,BU003,No,Yes,Q2
+TXN10106,2024-03-21,Travel,OLA Business,HR,130,MGR16,Wire Transfer,BU005,No,No,Q2
+TXN10107,2024-12-30,Facilities,Coursera for Teams,Operations,5230,MGR07,Corporate Card,BU015,Yes,No,Q2
+TXN10108,2024-12-29,Marketing,Salesforce,Finance,4760,MGR11,Corporate Card,BU013,Yes,No,Q2
+TXN10109,2024-12-24,Salaries,Coursera for Teams,HR,510,MGR10,Wire Transfer,BU001,No,No,Q4
+TXN10110,2024-11-22,Cloud Infrastructure,Coursera for Teams,Finance,5670,MGR01,Corporate Card,BU001,No,No,Q4
+TXN10111,2024-03-30,Software Subscriptions,AWS,Operations,230,MGR07,Reimbursement,BU012,No,No,Q2
+TXN10112,2024-07-04,Salaries,OLA Business,Finance,2190,MGR07,Wire Transfer,BU014,No,Yes,Q2
+TXN10113,2024-09-17,Marketing,Coursera for Teams,Operations,680,MGR04,Corporate Card,BU004,No,No,Q1
+TXN10114,2024-04-24,Travel,Salesforce,Sales,80,MGR16,Direct Debit,BU009,No,Yes,Q4
+TXN10115,2024-03-03,Legal & Compliance,OLA Business,Operations,310,MGR08,Corporate Card,BU014,No,No,Q2
+TXN10116,2024-04-12,Travel,Salesforce,Engineering,540,MGR20,Corporate Card,BU009,No,No,Q3
+TXN10117,2024-03-12,Cloud Infrastructure,Microsoft,Finance,1690,MGR07,Wire Transfer,BU001,No,Yes,Q4
+TXN10118,2024-05-01,Marketing,Unknown,Finance,380,MGR13,Reimbursement,BU003,No,No,Q2
+TXN10119,2024-09-09,Software Subscriptions,Microsoft,Marketing,480,MGR08,Wire Transfer,BU013,Yes,No,Q4
+TXN10120,2024-01-14,Cloud Infrastructure,Microsoft,Marketing,1270,MGR18,Wire Transfer,BU012,No,Yes,Q2
+TXN10121,2024-07-03,Salaries,AWS,Engineering,1190,MGR11,Corporate Card,BU004,No,Yes,Q3
+TXN10122,2024-10-10,Marketing,Zoom,Finance,600,MGR10,Wire Transfer,BU002,No,No,Q2
+TXN10123,2024-10-20,Salaries,Unknown,Finance,460,MGR13,Corporate Card,BU007,No,Yes,Q2
+TXN10124,2024-07-07,Office Supplies,AWS,Marketing,2050,MGR15,Wire Transfer,BU003,No,No,Q4
+TXN10125,2024-08-27,Facilities,Salesforce,Marketing,460,MGR18,Corporate Card,BU001,No,No,Q3
+TXN10126,2024-10-09,Marketing,AWS,Operations,160,MGR12,Corporate Card,BU001,No,No,Q2
+TXN10127,2024-03-07,Office Supplies,Salesforce,HR,410,MGR10,Direct Debit,BU003,No,Yes,Q2
+TXN10128,2024-11-09,Training,Zoom,Finance,1280,MGR09,Corporate Card,BU006,No,No,Q1
+TXN10129,2024-02-14,Travel,Coursera for Teams,Finance,560,MGR12,Corporate Card,BU004,No,Yes,Q3
+TXN10130,2024-02-03,Office Supplies,AWS,Operations,360,MGR17,Corporate Card,BU001,No,No,Q2
+TXN10131,2024-06-07,Marketing,LegalZoom,Finance,150,MGR16,Corporate Card,BU007,No,Yes,Q4
+TXN10132,2024-07-22,Facilities,Coursera for Teams,Engineering,560,MGR15,Wire Transfer,BU002,No,No,Q2
+TXN10133,2024-09-02,R&D,WeWork,Marketing,870,MGR04,Corporate Card,BU012,No,No,Q2
+TXN10134,2024-09-26,Cloud Infrastructure,AWS,Marketing,200,MGR16,Corporate Card,BU005,No,No,Q4
+TXN10135,2024-07-29,Salaries,Salesforce,HR,530,MGR11,Corporate Card,BU008,No,Yes,Q3
+TXN10136,2024-07-28,Cloud Infrastructure,Unknown,Marketing,180,MGR07,Corporate Card,BU007,No,Yes,Q4
+TXN10137,2024-10-21,Salaries,AWS,Sales,570,MGR12,Corporate Card,BU011,No,No,Q3
+TXN10138,2024-02-07,Marketing,Salesforce,Engineering,5270,MGR11,Corporate Card,BU012,Yes,Yes,Q2
+TXN10139,2024-03-05,R&D,Zoom,Engineering,820,MGR14,Corporate Card,BU008,No,No,Q3
+TXN10140,2024-06-11,Travel,Microsoft,Operations,100,MGR02,Corporate Card,BU013,No,Yes,Q1
+TXN10141,2024-11-24,Marketing,AWS,Sales,990,MGR19,Reimbursement,BU010,No,No,Q2
+TXN10142,2024-02-07,Facilities,Swiggy for Teams,Finance,3210,MGR08,Reimbursement,BU014,No,No,Q1
+TXN10143,2024-08-18,Training,WeWork,HR,130,MGR05,Corporate Card,BU011,No,Yes,Q3
+TXN10144,2024-08-26,Travel,Swiggy for Teams,Engineering,190,MGR01,Corporate Card,BU006,No,No,Q1
+TXN10145,2024-12-14,Travel,Coursera for Teams,Sales,910,MGR09,Wire Transfer,BU007,No,Yes,Q2
+TXN10146,2024-09-21,Salaries,Coursera for Teams,Sales,600,MGR18,Wire Transfer,BU009,Yes,Yes,Q2
+TXN10147,2024-06-25,Salaries,Microsoft,Engineering,2850,MGR19,Direct Debit,BU006,No,Yes,Q1
+TXN10148,2024-03-06,Salaries,Microsoft,Operations,540,MGR19,Corporate Card,BU009,No,No,Q1
+TXN10149,2024-10-09,Marketing,Coursera for Teams,Sales,1790,MGR14,Wire Transfer,BU015,No,No,Q2
+TXN10150,2024-11-23,R&D,AWS,Marketing,4160,MGR10,Reimbursement,BU013,No,No,Q2
+TXN10151,2024-10-27,Office Supplies,OLA Business,Sales,230,MGR05,Corporate Card,BU012,No,Yes,Q1
+TXN10152,2024-04-03,Salaries,AWS,Finance,1630,MGR07,Corporate Card,BU002,Yes,No,Q1
+TXN10153,2024-03-07,Salaries,WeWork,Engineering,410,MGR11,Corporate Card,BU013,No,Yes,Q4
+TXN10154,2024-08-09,Software Subscriptions,Coursera for Teams,Finance,50,MGR08,Corporate Card,BU002,Yes,Yes,Q3
+TXN10155,2024-09-14,Software Subscriptions,Swiggy for Teams,Operations,1180,MGR13,Corporate Card,BU014,No,Yes,Q3
+TXN10156,2024-01-29,Facilities,Microsoft,HR,1370,MGR19,Reimbursement,BU002,Yes,No,Q4
+TXN10157,2024-03-04,Facilities,Swiggy for Teams,Marketing,100,MGR08,Corporate Card,BU006,No,No,Q1
+TXN10158,2024-09-22,Software Subscriptions,Coursera for Teams,Engineering,390,MGR16,Corporate Card,BU002,No,Yes,Q2
+TXN10159,2024-03-19,Facilities,Zoom,Sales,310,MGR18,Reimbursement,BU003,No,No,Q4
+TXN10160,2024-06-04,Software Subscriptions,Coursera for Teams,Marketing,1760,MGR11,Corporate Card,BU013,No,Yes,Q3
+TXN10161,2024-03-25,Cloud Infrastructure,LegalZoom,Sales,100,MGR09,Corporate Card,BU008,Yes,No,Q4
+TXN10162,2024-03-23,Travel,WeWork,Operations,760,MGR16,Corporate Card,BU008,No,Yes,Q4
+TXN10163,2024-06-14,Facilities,LegalZoom,HR,50,MGR16,Corporate Card,BU011,Yes,Yes,Q1
+TXN10164,2024-12-29,Travel,Unknown,Engineering,1050,MGR15,Corporate Card,BU012,No,No,Q4
+TXN10165,2024-04-25,Salaries,Swiggy for Teams,Operations,770,MGR06,Reimbursement,BU004,No,No,Q4
+TXN10166,2024-06-26,Legal & Compliance,Zoom,Operations,360,MGR12,Corporate Card,BU009,No,No,Q2
+TXN10167,2024-09-22,Travel,WeWork,HR,3690,MGR06,Wire Transfer,BU008,Yes,No,Q4
+TXN10168,2024-05-25,Salaries,Salesforce,Operations,50,MGR05,Corporate Card,BU001,No,No,Q1
+TXN10169,2024-02-10,Travel,Unknown,Operations,650,MGR18,Direct Debit,BU008,Yes,No,Q3
+TXN10170,2024-05-08,Cloud Infrastructure,OLA Business,Sales,2800,MGR16,Wire Transfer,BU001,No,No,Q2
+TXN10171,2024-04-10,Marketing,LegalZoom,Finance,780,MGR06,Direct Debit,BU015,No,Yes,Q1
+TXN10172,2024-11-21,Salaries,WeWork,Sales,3430,MGR18,Corporate Card,BU004,No,No,Q3
+TXN10173,2024-10-09,R&D,WeWork,HR,390,MGR02,Reimbursement,BU010,No,No,Q2
+TXN10174,2024-05-20,Marketing,LegalZoom,Marketing,540,MGR17,Reimbursement,BU006,No,Yes,Q3
+TXN10175,2024-03-05,Travel,Unknown,HR,2920,MGR02,Wire Transfer,BU007,No,No,Q3
+TXN10176,2024-11-16,Cloud Infrastructure,Zoom,HR,1950,MGR03,Corporate Card,BU010,Yes,Yes,Q2
+TXN10177,2024-06-04,Legal & Compliance,Zoom,HR,11840,MGR02,Corporate Card,BU013,No,No,Q1
+TXN10178,2024-11-10,R&D,Microsoft,HR,750,MGR01,Corporate Card,BU004,No,Yes,Q3
+TXN10179,2024-09-30,Software Subscriptions,AWS,Operations,850,MGR14,Corporate Card,BU008,No,Yes,Q4
+TXN10180,2024-02-17,Marketing,Unknown,HR,380,MGR05,Wire Transfer,BU008,No,Yes,Q3
+TXN10181,2024-09-14,Facilities,Swiggy for Teams,Marketing,520,MGR08,Wire Transfer,BU014,No,No,Q3
+TXN10182,2024-11-24,Legal & Compliance,Swiggy for Teams,HR,2430,MGR03,Wire Transfer,BU014,No,Yes,Q3
+TXN10183,2024-03-27,Cloud Infrastructure,Unknown,Sales,660,MGR05,Corporate Card,BU014,No,No,Q2
+TXN10184,2024-10-30,Office Supplies,LegalZoom,Operations,250,MGR01,Corporate Card,BU009,Yes,No,Q2
+TXN10185,2024-10-24,Marketing,Swiggy for Teams,Sales,420,MGR07,Corporate Card,BU014,No,Yes,Q4
+TXN10186,2024-03-19,Software Subscriptions,Swiggy for Teams,Operations,600,MGR17,Corporate Card,BU006,No,No,Q4
+TXN10187,2024-03-28,R&D,AWS,Sales,270,MGR15,Wire Transfer,BU004,No,Yes,Q2
+TXN10188,2024-12-03,Software Subscriptions,WeWork,Engineering,380,MGR12,Corporate Card,BU002,No,No,Q2
+TXN10189,2024-11-15,Salaries,WeWork,Finance,200,MGR02,Wire Transfer,BU015,No,No,Q3
+TXN10190,2024-11-05,Salaries,Unknown,Finance,400,MGR20,Wire Transfer,BU007,No,Yes,Q3
+TXN10191,2024-06-21,Marketing,Coursera for Teams,Operations,2700,MGR20,Reimbursement,BU010,No,Yes,Q2
+TXN10192,2024-10-15,Marketing,WeWork,Engineering,700,MGR16,Corporate Card,BU003,No,No,Q3
+TXN10193,2024-01-22,Cloud Infrastructure,LegalZoom,Marketing,12750,MGR16,Wire Transfer,BU011,No,No,Q2
+TXN10194,2024-01-15,Marketing,Salesforce,Engineering,270,MGR01,Corporate Card,BU013,No,Yes,Q2
+TXN10195,2024-02-11,Office Supplies,Coursera for Teams,Operations,1190,MGR01,Corporate Card,BU012,No,Yes,Q4
+TXN10196,2024-01-24,Marketing,AWS,Engineering,870,MGR18,Wire Transfer,BU003,No,No,Q2
+TXN10197,2024-11-24,Legal & Compliance,LegalZoom,Marketing,1450,MGR18,Wire Transfer,BU003,No,Yes,Q4
+TXN10198,2024-10-22,R&D,Zoom,Operations,320,MGR14,Corporate Card,BU004,No,No,Q1
+TXN10199,2024-05-15,Cloud Infrastructure,AWS,Finance,430,MGR01,Corporate Card,BU002,Yes,No,Q2
+TXN10200,2024-11-29,Legal & Compliance,Microsoft,HR,1080,MGR01,Wire Transfer,BU013,No,Yes,Q2
+TXN10201,2024-04-17,Salaries,Swiggy for Teams,Engineering,360,MGR17,Corporate Card,BU013,No,No,Q4
+TXN10202,2024-10-19,Cloud Infrastructure,OLA Business,Finance,80,MGR09,Wire Transfer,BU005,No,No,Q4
+TXN10203,2024-08-01,R&D,Zoom,Finance,3210,MGR18,Reimbursement,BU003,No,No,Q1
+TXN10204,2024-11-12,Salaries,Coursera for Teams,Sales,1930,MGR10,Wire Transfer,BU010,No,No,Q2
+TXN10205,2024-11-23,Travel,LegalZoom,Marketing,400,MGR01,Wire Transfer,BU005,No,No,Q3
+TXN10206,2024-01-16,R&D,Zoom,HR,860,MGR17,Wire Transfer,BU012,No,No,Q2
+TXN10207,2024-09-11,Legal & Compliance,Microsoft,Engineering,2230,MGR14,Reimbursement,BU013,No,Yes,Q2
+TXN10208,2024-11-17,Marketing,LegalZoom,Finance,3340,MGR06,Wire Transfer,BU007,No,No,Q3
+TXN10209,2024-10-06,R&D,OLA Business,Finance,750,MGR04,Corporate Card,BU009,No,Yes,Q3
+TXN10210,2024-05-28,Marketing,Coursera for Teams,Marketing,330,MGR04,Corporate Card,BU002,Yes,Yes,Q2
+TXN10211,2024-11-24,Marketing,AWS,HR,3850,MGR17,Direct Debit,BU009,No,No,Q1
+TXN10212,2024-06-03,Cloud Infrastructure,Unknown,HR,750,MGR05,Corporate Card,BU010,No,No,Q2
+TXN10213,2024-09-04,Office Supplies,Zoom,Finance,560,MGR08,Wire Transfer,BU006,No,No,Q1
+TXN10214,2024-05-05,Cloud Infrastructure,OLA Business,Finance,910,MGR07,Reimbursement,BU012,No,Yes,Q3
+TXN10215,2024-12-16,Software Subscriptions,Microsoft,Finance,2660,MGR20,Wire Transfer,BU006,No,No,Q4
+TXN10216,2024-07-26,Travel,Zoom,Finance,630,MGR17,Corporate Card,BU011,Yes,No,Q1
+TXN10217,2024-06-01,Salaries,Salesforce,Sales,2170,MGR09,Corporate Card,BU003,Yes,No,Q1
+TXN10218,2024-08-20,Salaries,Salesforce,Sales,520,MGR12,Corporate Card,BU014,No,No,Q1
+TXN10219,2024-02-07,Travel,Coursera for Teams,HR,1380,MGR09,Corporate Card,BU010,No,No,Q4
+TXN10220,2024-12-18,R&D,AWS,Operations,210,MGR13,Direct Debit,BU013,No,No,Q1
+TXN10221,2024-01-31,Salaries,Coursera for Teams,Engineering,2400,MGR03,Wire Transfer,BU009,No,Yes,Q4
+TXN10222,2024-03-21,Software Subscriptions,Coursera for Teams,Marketing,300,MGR12,Wire Transfer,BU004,No,No,Q2
+TXN10223,2024-08-13,Marketing,Swiggy for Teams,Operations,1150,MGR13,Corporate Card,BU005,Yes,Yes,Q2
+TXN10224,2024-07-31,Legal & Compliance,AWS,Sales,110,MGR15,Corporate Card,BU003,No,No,Q1
+TXN10225,2024-09-04,Salaries,Swiggy for Teams,Sales,690,MGR19,Corporate Card,BU005,No,No,Q3
+TXN10226,2024-08-25,Software Subscriptions,LegalZoom,Sales,830,MGR08,Corporate Card,BU008,No,Yes,Q3
+TXN10227,2024-04-14,Travel,OLA Business,Operations,290,MGR08,Wire Transfer,BU008,No,No,Q3
+TXN10228,2024-06-23,Salaries,OLA Business,Sales,580,MGR10,Wire Transfer,BU014,No,No,Q2
+TXN10229,2024-11-06,Marketing,AWS,Operations,910,MGR03,Corporate Card,BU008,Yes,Yes,Q2
+TXN10230,2024-03-14,Cloud Infrastructure,AWS,Sales,1310,MGR02,Wire Transfer,BU006,No,Yes,Q2
+TXN10231,2024-06-09,R&D,LegalZoom,Finance,750,MGR03,Direct Debit,BU015,No,Yes,Q2
+TXN10232,2024-06-12,Office Supplies,OLA Business,Finance,3290,MGR13,Corporate Card,BU015,No,Yes,Q2
+TXN10233,2024-06-25,Facilities,LegalZoom,Engineering,2670,MGR13,Wire Transfer,BU001,No,No,Q3
+TXN10234,2024-07-23,R&D,Unknown,Sales,640,MGR13,Corporate Card,BU011,No,No,Q2
+TXN10235,2024-03-07,Facilities,Microsoft,Engineering,130,MGR18,Wire Transfer,BU010,No,Yes,Q2
+TXN10236,2024-07-08,R&D,Salesforce,Operations,370,MGR16,Corporate Card,BU012,Yes,No,Q2
+TXN10237,2024-09-20,Facilities,Unknown,Engineering,50,MGR02,Wire Transfer,BU006,Yes,No,Q1
+TXN10238,2024-10-14,Salaries,Coursera for Teams,Sales,530,MGR01,Corporate Card,BU012,No,No,Q3
+TXN10239,2024-02-24,Salaries,Zoom,Operations,3580,MGR06,Corporate Card,BU011,No,Yes,Q2
+TXN10240,2024-06-12,Salaries,Swiggy for Teams,Operations,1720,MGR03,Reimbursement,BU010,No,No,Q1
+TXN10241,2024-05-03,Facilities,WeWork,Finance,740,MGR16,Corporate Card,BU007,Yes,Yes,Q4
+TXN10242,2024-08-26,Marketing,Zoom,Operations,280,MGR14,Corporate Card,BU014,No,No,Q2
+TXN10243,2024-03-03,Software Subscriptions,AWS,Operations,770,MGR11,Wire Transfer,BU009,No,No,Q2
+TXN10244,2024-05-16,Software Subscriptions,Microsoft,Engineering,8580,MGR19,Corporate Card,BU012,Yes,Yes,Q4
+TXN10245,2024-08-18,Legal & Compliance,Unknown,HR,3960,MGR04,Wire Transfer,BU008,No,No,Q1
+TXN10246,2024-05-06,Training,WeWork,Operations,560,MGR17,Wire Transfer,BU011,No,No,Q4
+TXN10247,2024-03-13,Salaries,WeWork,Marketing,110,MGR02,Corporate Card,BU012,No,Yes,Q2
+TXN10248,2024-02-19,Office Supplies,AWS,HR,9410,MGR08,Corporate Card,BU008,No,No,Q3
+TXN10249,2024-01-26,Cloud Infrastructure,Unknown,Finance,280,MGR07,Reimbursement,BU015,No,No,Q3
+TXN10250,2024-05-28,Travel,WeWork,Finance,1260,MGR19,Corporate Card,BU007,No,No,Q4
+TXN10251,2024-07-15,Salaries,Unknown,Operations,100,MGR16,Reimbursement,BU002,Yes,No,Q3
+TXN10252,2024-11-11,Marketing,Swiggy for Teams,Engineering,450,MGR09,Corporate Card,BU001,No,Yes,Q2
+TXN10253,2024-08-02,R&D,Swiggy for Teams,HR,100,MGR02,Wire Transfer,BU015,Yes,No,Q3
+TXN10254,2024-05-07,Salaries,WeWork,Finance,160,MGR03,Direct Debit,BU002,No,No,Q1
+TXN10255,2024-03-22,Salaries,WeWork,Finance,220,MGR09,Wire Transfer,BU015,No,Yes,Q3
+TXN10256,2024-06-16,Cloud Infrastructure,AWS,Marketing,1180,MGR18,Corporate Card,BU006,Yes,No,Q1
+TXN10257,2024-10-22,Salaries,Unknown,Operations,590,MGR19,Wire Transfer,BU013,No,No,Q3
+TXN10258,2024-06-09,Office Supplies,OLA Business,HR,17240,MGR02,Wire Transfer,BU002,No,No,Q3
+TXN10259,2024-04-07,Salaries,LegalZoom,Finance,2590,MGR06,Wire Transfer,BU010,No,No,Q4
+TXN10260,2024-03-22,R&D,LegalZoom,Finance,2660,MGR11,Corporate Card,BU004,No,Yes,Q2
+TXN10261,2024-09-12,Salaries,Zoom,Finance,1220,MGR01,Wire Transfer,BU015,No,Yes,Q4
+TXN10262,2024-09-20,Cloud Infrastructure,Zoom,Finance,930,MGR07,Corporate Card,BU010,No,Yes,Q1
+TXN10263,2024-08-27,R&D,WeWork,Engineering,2770,MGR19,Corporate Card,BU003,No,No,Q1
+TXN10264,2024-09-12,Legal & Compliance,Salesforce,Sales,50,MGR05,Wire Transfer,BU006,No,Yes,Q3
+TXN10265,2024-06-06,Cloud Infrastructure,Swiggy for Teams,Marketing,320,MGR13,Corporate Card,BU012,Yes,Yes,Q3
+TXN10266,2024-09-11,Training,Coursera for Teams,Engineering,130,MGR03,Reimbursement,BU012,Yes,Yes,Q3
+TXN10267,2024-01-12,R&D,Unknown,Marketing,70,MGR10,Reimbursement,BU013,No,Yes,Q4
+TXN10268,2024-02-16,R&D,Microsoft,Finance,260,MGR06,Direct Debit,BU014,No,No,Q2
+TXN10269,2024-07-20,R&D,Microsoft,Marketing,170,MGR19,Wire Transfer,BU008,No,No,Q3
+TXN10270,2024-09-15,Cloud Infrastructure,Swiggy for Teams,Operations,2790,MGR08,Wire Transfer,BU011,No,Yes,Q1
+TXN10271,2024-08-22,Marketing,Zoom,Operations,740,MGR19,Corporate Card,BU006,No,No,Q1
+TXN10272,2024-05-03,Software Subscriptions,AWS,Sales,60,MGR13,Wire Transfer,BU002,No,No,Q1
+TXN10273,2024-04-20,Marketing,Microsoft,Sales,970,MGR18,Corporate Card,BU005,No,No,Q4
+TXN10274,2024-10-25,R&D,WeWork,Marketing,200,MGR11,Corporate Card,BU011,Yes,No,Q3
+TXN10275,2024-06-29,Facilities,Salesforce,Engineering,720,MGR13,Wire Transfer,BU013,No,No,Q2
+TXN10276,2024-01-25,Salaries,Microsoft,Engineering,1070,MGR05,Corporate Card,BU006,No,Yes,Q3
+TXN10277,2024-01-26,Salaries,LegalZoom,Finance,270,MGR03,Corporate Card,BU009,No,No,Q2
+TXN10278,2024-05-24,Marketing,Salesforce,Engineering,860,MGR17,Wire Transfer,BU006,No,No,Q4
+TXN10279,2024-09-10,Salaries,Salesforce,Sales,1080,MGR12,Corporate Card,BU010,No,Yes,Q3
+TXN10280,2024-11-01,Cloud Infrastructure,Microsoft,Engineering,550,MGR02,Corporate Card,BU005,Yes,Yes,Q1
+TXN10281,2024-11-30,Salaries,AWS,Finance,280,MGR04,Corporate Card,BU001,No,No,Q4
+TXN10282,2024-12-10,Software Subscriptions,AWS,Operations,670,MGR14,Wire Transfer,BU010,No,No,Q1
+TXN10283,2024-08-28,Salaries,Zoom,Engineering,560,MGR08,Wire Transfer,BU005,Yes,No,Q3
+TXN10284,2024-05-26,Office Supplies,Swiggy for Teams,Engineering,970,MGR03,Wire Transfer,BU005,No,No,Q2
+TXN10285,2024-10-01,R&D,WeWork,Sales,480,MGR11,Corporate Card,BU006,No,No,Q2
+TXN10286,2024-01-05,Marketing,Coursera for Teams,Marketing,160,MGR20,Wire Transfer,BU007,No,Yes,Q3
+TXN10287,2024-02-25,Facilities,OLA Business,Operations,540,MGR20,Wire Transfer,BU013,Yes,No,Q1
+TXN10288,2024-08-08,Office Supplies,Coursera for Teams,Marketing,980,MGR20,Corporate Card,BU013,Yes,No,Q4
+TXN10289,2024-03-09,Software Subscriptions,LegalZoom,Finance,830,MGR13,Corporate Card,BU004,No,No,Q2
+TXN10290,2024-05-15,Cloud Infrastructure,AWS,Finance,580,MGR11,Wire Transfer,BU007,No,Yes,Q2
+TXN10291,2024-07-06,Legal & Compliance,Zoom,Marketing,370,MGR01,Wire Transfer,BU005,No,Yes,Q3
+TXN10292,2024-07-25,Salaries,LegalZoom,Sales,350,MGR09,Wire Transfer,BU006,No,No,Q1
+TXN10293,2024-07-06,Office Supplies,Coursera for Teams,HR,390,MGR15,Corporate Card,BU004,No,No,Q3
+TXN10294,2024-01-24,Travel,Salesforce,Sales,2420,MGR16,Wire Transfer,BU012,No,No,Q4
+TXN10295,2024-07-24,Cloud Infrastructure,Swiggy for Teams,HR,210,MGR08,Wire Transfer,BU008,No,No,Q3
+TXN10296,2024-01-27,Software Subscriptions,Salesforce,HR,740,MGR12,Wire Transfer,BU009,No,No,Q2
+TXN10297,2024-10-18,Marketing,Coursera for Teams,Sales,150,MGR18,Wire Transfer,BU002,No,No,Q3
+TXN10298,2024-10-14,Cloud Infrastructure,Microsoft,HR,1670,MGR13,Reimbursement,BU012,No,Yes,Q4
+TXN10299,2024-04-09,Travel,Swiggy for Teams,HR,350,MGR14,Reimbursement,BU011,Yes,Yes,Q1
+TXN10300,2024-07-04,Software Subscriptions,Zoom,HR,250,MGR06,Wire Transfer,BU004,No,No,Q3
+TXN10301,2024-10-10,Travel,Unknown,Operations,860,MGR19,Wire Transfer,BU011,No,Yes,Q2
+TXN10302,2024-05-27,R&D,Salesforce,Finance,50,MGR13,Corporate Card,BU008,No,No,Q4
+TXN10303,2024-02-07,Marketing,Microsoft,HR,140,MGR03,Wire Transfer,BU008,No,No,Q3
+TXN10304,2024-07-16,Facilities,LegalZoom,Finance,1030,MGR20,Wire Transfer,BU015,No,No,Q4
+TXN10305,2024-09-15,Marketing,Unknown,Finance,2250,MGR10,Corporate Card,BU009,No,No,Q4
+TXN10306,2024-08-18,Training,LegalZoom,Operations,1140,MGR08,Corporate Card,BU003,Yes,No,Q2
+TXN10307,2024-10-08,Software Subscriptions,AWS,Finance,790,MGR03,Corporate Card,BU001,No,No,Q1
+TXN10308,2024-05-23,Salaries,Unknown,Marketing,12000,MGR03,Corporate Card,BU009,Yes,No,Q2
+TXN10309,2024-11-15,Legal & Compliance,Swiggy for Teams,Engineering,1200,MGR09,Corporate Card,BU001,No,Yes,Q2
+TXN10310,2024-12-14,Legal & Compliance,AWS,Operations,190,MGR05,Corporate Card,BU003,No,Yes,Q3
+TXN10311,2024-11-08,Legal & Compliance,Swiggy for Teams,Engineering,2270,MGR13,Wire Transfer,BU003,No,No,Q4
+TXN10312,2024-03-01,Legal & Compliance,WeWork,Marketing,310,MGR05,Corporate Card,BU009,No,No,Q2
+TXN10313,2024-03-06,Software Subscriptions,Microsoft,Sales,280,MGR13,Corporate Card,BU015,No,No,Q3
+TXN10314,2024-02-19,Salaries,Coursera for Teams,Sales,130,MGR11,Reimbursement,BU001,No,Yes,Q4
+TXN10315,2024-07-20,Salaries,LegalZoom,HR,410,MGR12,Corporate Card,BU007,No,Yes,Q2
+TXN10316,2024-07-10,Facilities,Coursera for Teams,Sales,150,MGR04,Reimbursement,BU002,No,No,Q1
+TXN10317,2024-06-22,Marketing,Unknown,Operations,1300,MGR03,Wire Transfer,BU007,No,No,Q3
+TXN10318,2024-10-12,R&D,Salesforce,Sales,570,MGR01,Corporate Card,BU015,No,No,Q2
+TXN10319,2024-07-06,Salaries,Salesforce,Operations,130,MGR10,Corporate Card,BU015,No,No,Q4
+TXN10320,2024-03-14,Cloud Infrastructure,LegalZoom,Operations,600,MGR15,Corporate Card,BU001,No,No,Q2
+TXN10321,2024-04-11,Office Supplies,AWS,Engineering,2190,MGR12,Corporate Card,BU013,Yes,No,Q4
+TXN10322,2024-11-04,Salaries,LegalZoom,Sales,4660,MGR09,Corporate Card,BU010,Yes,Yes,Q3
+TXN10323,2024-09-17,Cloud Infrastructure,WeWork,Finance,80,MGR04,Corporate Card,BU010,No,No,Q1
+TXN10324,2024-07-24,Salaries,WeWork,Sales,260,MGR05,Corporate Card,BU008,No,No,Q1
+TXN10325,2024-09-13,R&D,Coursera for Teams,Sales,140,MGR03,Wire Transfer,BU010,No,No,Q1
+TXN10326,2024-01-21,Training,Unknown,Sales,1020,MGR06,Corporate Card,BU013,Yes,No,Q1
+TXN10327,2024-01-24,Salaries,WeWork,HR,120,MGR14,Reimbursement,BU010,No,Yes,Q2
+TXN10328,2024-01-20,Facilities,Microsoft,Finance,2370,MGR15,Corporate Card,BU002,No,No,Q3
+TXN10329,2024-03-11,Cloud Infrastructure,AWS,Finance,2820,MGR18,Reimbursement,BU003,No,Yes,Q3
+TXN10330,2024-06-19,Cloud Infrastructure,AWS,Operations,1780,MGR18,Corporate Card,BU014,No,Yes,Q3
+TXN10331,2024-08-30,Office Supplies,WeWork,Finance,280,MGR17,Wire Transfer,BU008,No,No,Q1
+TXN10332,2024-09-22,Marketing,OLA Business,Operations,300,MGR14,Corporate Card,BU003,No,Yes,Q3
+TXN10333,2024-08-21,Cloud Infrastructure,Salesforce,Engineering,380,MGR04,Wire Transfer,BU001,No,No,Q2
+TXN10334,2024-03-17,Facilities,OLA Business,Operations,2510,MGR01,Corporate Card,BU009,No,Yes,Q4
+TXN10335,2024-11-06,Marketing,Unknown,Sales,90,MGR03,Wire Transfer,BU008,No,Yes,Q4
+TXN10336,2024-09-20,Software Subscriptions,Unknown,Marketing,1060,MGR12,Corporate Card,BU015,No,Yes,Q4
+TXN10337,2024-03-12,Salaries,Swiggy for Teams,Marketing,220,MGR18,Wire Transfer,BU004,No,Yes,Q3
+TXN10338,2024-06-16,Travel,Unknown,HR,400,MGR03,Corporate Card,BU008,No,No,Q1
+TXN10339,2024-11-09,Cloud Infrastructure,Swiggy for Teams,Sales,1610,MGR20,Corporate Card,BU014,No,No,Q1
+TXN10340,2024-06-12,Cloud Infrastructure,AWS,Operations,110,MGR20,Corporate Card,BU005,Yes,No,Q4
+TXN10341,2024-03-24,Marketing,Microsoft,Sales,480,MGR11,Corporate Card,BU003,No,Yes,Q2
+TXN10342,2024-07-20,Facilities,Zoom,HR,570,MGR13,Wire Transfer,BU001,No,No,Q2
+TXN10343,2024-11-11,Salaries,Salesforce,Finance,640,MGR01,Direct Debit,BU013,No,No,Q4
+TXN10344,2024-06-02,Cloud Infrastructure,Swiggy for Teams,Operations,590,MGR10,Corporate Card,BU010,No,Yes,Q3
+TXN10345,2024-10-30,Software Subscriptions,Coursera for Teams,Sales,1300,MGR14,Wire Transfer,BU005,No,No,Q1
+TXN10346,2024-06-21,Salaries,Microsoft,Finance,390,MGR13,Wire Transfer,BU011,No,No,Q1
+TXN10347,2024-09-16,Facilities,LegalZoom,HR,1030,MGR03,Wire Transfer,BU006,No,No,Q1
+TXN10348,2024-09-17,Software Subscriptions,Coursera for Teams,Finance,990,MGR18,Corporate Card,BU004,No,No,Q3
+TXN10349,2024-09-29,Marketing,Microsoft,Operations,940,MGR08,Corporate Card,BU007,No,No,Q3
+TXN10350,2024-09-07,Marketing,Coursera for Teams,HR,1250,MGR19,Reimbursement,BU003,No,Yes,Q4
+TXN10351,2024-12-28,Software Subscriptions,WeWork,HR,930,MGR17,Corporate Card,BU007,No,No,Q3
+TXN10352,2024-10-15,Marketing,Coursera for Teams,HR,600,MGR06,Wire Transfer,BU014,No,No,Q1
+TXN10353,2024-06-02,Office Supplies,Swiggy for Teams,Engineering,150,MGR13,Wire Transfer,BU001,No,Yes,Q1
+TXN10354,2024-08-31,R&D,Microsoft,HR,3390,MGR06,Corporate Card,BU007,No,No,Q3
+TXN10355,2024-01-09,Training,LegalZoom,Engineering,5080,MGR05,Corporate Card,BU001,No,No,Q4
+TXN10356,2024-07-07,Marketing,Unknown,Finance,430,MGR09,Wire Transfer,BU013,Yes,No,Q2
+TXN10357,2024-06-18,Training,Coursera for Teams,Engineering,1150,MGR10,Corporate Card,BU011,No,No,Q4
+TXN10358,2024-12-10,Travel,LegalZoom,Finance,340,MGR09,Corporate Card,BU001,No,Yes,Q2
+TXN10359,2024-02-26,Salaries,Microsoft,Engineering,280,MGR16,Corporate Card,BU002,Yes,No,Q2
+TXN10360,2024-08-01,Office Supplies,LegalZoom,Finance,710,MGR05,Direct Debit,BU002,Yes,No,Q4
+TXN10361,2024-10-25,Travel,Zoom,Finance,19320,MGR03,Corporate Card,BU004,No,No,Q1
+TXN10362,2024-06-06,Facilities,Zoom,HR,4510,MGR06,Wire Transfer,BU013,No,No,Q3
+TXN10363,2024-12-18,Software Subscriptions,Coursera for Teams,HR,3770,MGR14,Corporate Card,BU001,No,No,Q1
+TXN10364,2024-11-18,Legal & Compliance,Coursera for Teams,Finance,1240,MGR09,Corporate Card,BU004,No,No,Q4
+TXN10365,2024-01-14,Salaries,Coursera for Teams,HR,220,MGR14,Reimbursement,BU002,No,No,Q4
+TXN10366,2024-11-01,Travel,Salesforce,Finance,2310,MGR10,Wire Transfer,BU004,No,No,Q4
+TXN10367,2024-08-30,Training,WeWork,HR,50,MGR16,Corporate Card,BU004,Yes,Yes,Q1
+TXN10368,2024-05-15,Salaries,LegalZoom,Marketing,1060,MGR03,Wire Transfer,BU009,No,Yes,Q1
+TXN10369,2024-12-01,Marketing,OLA Business,Engineering,2480,MGR12,Corporate Card,BU009,No,No,Q3
+TXN10370,2024-10-23,Marketing,AWS,Finance,800,MGR09,Wire Transfer,BU001,No,No,Q2
+TXN10371,2024-10-22,Travel,Coursera for Teams,Sales,4870,MGR08,Corporate Card,BU005,No,No,Q3
+TXN10372,2024-04-26,R&D,Swiggy for Teams,HR,120,MGR16,Reimbursement,BU007,No,No,Q3
+TXN10373,2024-01-27,Salaries,Zoom,HR,4540,MGR20,Wire Transfer,BU004,No,Yes,Q1
+TXN10374,2024-10-25,Travel,Zoom,Operations,550,MGR20,Corporate Card,BU012,No,No,Q4
+TXN10375,2024-09-02,Facilities,Unknown,Sales,3790,MGR07,Reimbursement,BU005,No,No,Q4
+TXN10376,2024-03-28,Office Supplies,AWS,Sales,2260,MGR15,Direct Debit,BU002,No,No,Q4
+TXN10377,2024-09-25,Software Subscriptions,LegalZoom,Marketing,4090,MGR04,Corporate Card,BU003,No,Yes,Q2
+TXN10378,2024-11-18,Marketing,Microsoft,Engineering,2140,MGR05,Reimbursement,BU007,No,No,Q2
+TXN10379,2024-11-13,Salaries,AWS,Marketing,1530,MGR10,Reimbursement,BU010,No,Yes,Q1
+TXN10380,2024-07-13,Travel,WeWork,Engineering,3430,MGR01,Wire Transfer,BU013,No,No,Q1
+TXN10381,2024-03-16,Salaries,Coursera for Teams,Finance,710,MGR13,Direct Debit,BU015,No,No,Q2
+TXN10382,2024-12-14,Facilities,Swiggy for Teams,Marketing,1370,MGR11,Wire Transfer,BU007,No,Yes,Q4
+TXN10383,2024-05-04,Software Subscriptions,LegalZoom,Operations,660,MGR20,Wire Transfer,BU004,No,No,Q1
+TXN10384,2024-01-17,Marketing,LegalZoom,Engineering,290,MGR13,Reimbursement,BU012,No,No,Q2
+TXN10385,2024-10-20,Marketing,Coursera for Teams,Marketing,1250,MGR11,Wire Transfer,BU001,No,No,Q1
+TXN10386,2024-12-24,Salaries,WeWork,Operations,840,MGR15,Wire Transfer,BU001,No,No,Q2
+TXN10387,2024-02-26,Facilities,Coursera for Teams,Sales,3010,MGR11,Corporate Card,BU004,No,Yes,Q1
+TXN10388,2024-04-07,Marketing,Coursera for Teams,HR,530,MGR14,Reimbursement,BU004,No,Yes,Q3
+TXN10389,2024-01-10,Travel,AWS,Finance,270,MGR20,Wire Transfer,BU006,Yes,No,Q2
+TXN10390,2024-08-13,Marketing,Swiggy for Teams,Finance,2960,MGR05,Wire Transfer,BU007,No,No,Q1
+TXN10391,2024-06-09,Software Subscriptions,LegalZoom,Sales,720,MGR10,Corporate Card,BU009,No,No,Q1
+TXN10392,2024-08-02,Cloud Infrastructure,Unknown,Marketing,260,MGR11,Corporate Card,BU009,No,Yes,Q3
+TXN10393,2024-03-18,Travel,Coursera for Teams,HR,3520,MGR20,Corporate Card,BU010,No,Yes,Q2
+TXN10394,2024-07-30,Marketing,Salesforce,Sales,2020,MGR07,Wire Transfer,BU012,No,No,Q1
+TXN10395,2024-12-19,Salaries,Microsoft,Operations,6120,MGR16,Corporate Card,BU015,No,No,Q4
+TXN10396,2024-04-14,Office Supplies,Coursera for Teams,HR,440,MGR11,Reimbursement,BU012,No,Yes,Q2
+TXN10397,2024-07-29,Salaries,Coursera for Teams,Engineering,370,MGR06,Wire Transfer,BU005,No,No,Q3
+TXN10398,2024-09-13,Travel,LegalZoom,Marketing,180,MGR13,Direct Debit,BU010,No,Yes,Q4
+TXN10399,2024-11-09,R&D,Zoom,HR,340,MGR11,Corporate Card,BU011,No,No,Q2
+TXN10400,2024-08-29,Marketing,OLA Business,Engineering,420,MGR10,Direct Debit,BU003,Yes,No,Q4
+TXN10401,2024-02-01,R&D,Microsoft,Sales,1510,MGR16,Corporate Card,BU003,Yes,No,Q4
+TXN10402,2024-12-27,Marketing,Zoom,Finance,220,MGR19,Wire Transfer,BU015,No,No,Q1
+TXN10403,2024-03-11,Legal & Compliance,AWS,HR,300,MGR08,Wire Transfer,BU006,Yes,No,Q4
+TXN10404,2024-09-22,Office Supplies,Salesforce,HR,5090,MGR11,Corporate Card,BU001,No,No,Q1
+TXN10405,2024-04-16,Cloud Infrastructure,OLA Business,Engineering,50,MGR13,Corporate Card,BU007,No,Yes,Q2
+TXN10406,2024-10-14,Marketing,Microsoft,Engineering,1180,MGR09,Corporate Card,BU003,No,No,Q4
+TXN10407,2024-06-15,Salaries,Zoom,Finance,140,MGR13,Wire Transfer,BU005,No,No,Q4
+TXN10408,2024-12-05,Cloud Infrastructure,Swiggy for Teams,Engineering,250,MGR12,Corporate Card,BU007,No,Yes,Q3
+TXN10409,2024-09-01,Salaries,Swiggy for Teams,Engineering,3670,MGR04,Direct Debit,BU007,No,No,Q1
+TXN10410,2024-09-26,Salaries,WeWork,HR,720,MGR19,Corporate Card,BU009,No,No,Q3
+TXN10411,2024-07-11,Travel,Coursera for Teams,Finance,16130,MGR07,Direct Debit,BU001,No,No,Q3
+TXN10412,2024-06-09,Office Supplies,Salesforce,Finance,1410,MGR19,Corporate Card,BU003,No,Yes,Q2
+TXN10413,2024-03-29,Salaries,OLA Business,HR,250,MGR18,Corporate Card,BU009,No,No,Q4
+TXN10414,2024-08-23,Travel,Microsoft,Sales,1300,MGR06,Corporate Card,BU008,No,Yes,Q2
+TXN10415,2024-09-29,Office Supplies,Swiggy for Teams,Sales,2580,MGR18,Reimbursement,BU002,No,No,Q1
+TXN10416,2024-06-24,Office Supplies,Salesforce,HR,1240,MGR01,Wire Transfer,BU008,No,No,Q1
+TXN10417,2024-10-06,Office Supplies,OLA Business,Engineering,510,MGR15,Corporate Card,BU008,No,No,Q2
+TXN10418,2024-06-30,Salaries,WeWork,Marketing,90,MGR07,Corporate Card,BU002,No,No,Q3
+TXN10419,2024-12-12,Salaries,Swiggy for Teams,Sales,450,MGR15,Corporate Card,BU008,Yes,No,Q2
+TXN10420,2024-12-14,Facilities,LegalZoom,Sales,4920,MGR10,Wire Transfer,BU003,Yes,Yes,Q4
+TXN10421,2024-11-25,Marketing,Swiggy for Teams,HR,260,MGR03,Corporate Card,BU007,No,No,Q1
+TXN10422,2024-12-20,R&D,Unknown,HR,410,MGR14,Wire Transfer,BU013,No,No,Q2
+TXN10423,2024-05-15,Cloud Infrastructure,LegalZoom,Marketing,2190,MGR16,Wire Transfer,BU009,No,Yes,Q3
+TXN10424,2024-11-08,Facilities,Salesforce,Marketing,1400,MGR05,Reimbursement,BU004,Yes,Yes,Q1
+TXN10425,2024-09-04,Legal & Compliance,WeWork,Finance,140,MGR10,Wire Transfer,BU015,No,No,Q3
+TXN10426,2024-04-08,Cloud Infrastructure,Zoom,HR,580,MGR08,Corporate Card,BU011,No,No,Q4
+TXN10427,2024-05-06,Marketing,AWS,Sales,3600,MGR09,Direct Debit,BU006,No,No,Q3
+TXN10428,2024-05-22,Office Supplies,Coursera for Teams,Operations,690,MGR05,Corporate Card,BU009,No,Yes,Q3
+TXN10429,2024-10-12,Office Supplies,Coursera for Teams,Operations,3710,MGR14,Corporate Card,BU011,No,Yes,Q4
+TXN10430,2024-06-01,R&D,Swiggy for Teams,Engineering,3970,MGR13,Reimbursement,BU011,No,No,Q4
+TXN10431,2024-04-25,R&D,Microsoft,Sales,220,MGR03,Corporate Card,BU005,No,No,Q1
+TXN10432,2024-06-01,Training,LegalZoom,Operations,470,MGR15,Corporate Card,BU012,No,No,Q3
+TXN10433,2024-05-27,Facilities,Unknown,Sales,1460,MGR20,Corporate Card,BU001,No,No,Q1
+TXN10434,2024-12-26,Facilities,Swiggy for Teams,HR,110,MGR16,Corporate Card,BU003,No,No,Q1
+TXN10435,2024-04-16,Salaries,WeWork,Sales,510,MGR19,Corporate Card,BU011,No,No,Q2
+TXN10436,2024-12-19,Cloud Infrastructure,AWS,Operations,1280,MGR13,Corporate Card,BU015,No,Yes,Q4
+TXN10437,2024-12-26,Salaries,Zoom,Sales,320,MGR18,Corporate Card,BU009,No,Yes,Q3
+TXN10438,2024-09-07,Salaries,AWS,Marketing,1350,MGR17,Reimbursement,BU003,No,Yes,Q2
+TXN10439,2024-06-11,Travel,Unknown,Engineering,320,MGR14,Wire Transfer,BU011,No,Yes,Q1
+TXN10440,2024-09-02,Salaries,AWS,Finance,320,MGR18,Wire Transfer,BU011,No,Yes,Q4
+TXN10441,2024-06-27,Cloud Infrastructure,AWS,Operations,1620,MGR02,Wire Transfer,BU010,No,Yes,Q2
+TXN10442,2024-10-13,Salaries,Salesforce,HR,3430,MGR12,Reimbursement,BU002,No,No,Q2
+TXN10443,2024-05-20,Facilities,WeWork,Finance,280,MGR18,Reimbursement,BU004,No,Yes,Q4
+TXN10444,2024-05-27,Marketing,WeWork,Engineering,160,MGR20,Reimbursement,BU005,No,Yes,Q3
+TXN10445,2024-03-03,Software Subscriptions,OLA Business,Marketing,640,MGR03,Reimbursement,BU007,Yes,No,Q1
+TXN10446,2024-10-20,Legal & Compliance,Swiggy for Teams,Marketing,1160,MGR04,Corporate Card,BU007,No,No,Q2
+TXN10447,2024-12-12,Cloud Infrastructure,Microsoft,Marketing,280,MGR08,Wire Transfer,BU009,No,No,Q4
+TXN10448,2024-10-05,Office Supplies,OLA Business,Marketing,4880,MGR12,Wire Transfer,BU013,No,No,Q4
+TXN10449,2024-07-13,Salaries,WeWork,Operations,560,MGR06,Wire Transfer,BU008,No,No,Q1
+TXN10450,2024-07-21,Salaries,Coursera for Teams,Operations,280,MGR20,Wire Transfer,BU013,No,Yes,Q2
+TXN10451,2024-06-25,R&D,Swiggy for Teams,Sales,6760,MGR02,Corporate Card,BU015,No,Yes,Q1
+TXN10452,2024-03-15,Cloud Infrastructure,Unknown,HR,3040,MGR19,Corporate Card,BU002,No,No,Q3
+TXN10453,2024-05-28,Software Subscriptions,Salesforce,Sales,280,MGR13,Direct Debit,BU012,No,Yes,Q4
+TXN10454,2024-01-22,Salaries,Zoom,HR,2390,MGR11,Wire Transfer,BU008,No,Yes,Q2
+TXN10455,2024-05-27,Facilities,Coursera for Teams,Engineering,300,MGR14,Corporate Card,BU008,Yes,No,Q4
+TXN10456,2024-02-10,Cloud Infrastructure,WeWork,Sales,1670,MGR04,Corporate Card,BU005,No,Yes,Q3
+TXN10457,2024-06-26,Facilities,Swiggy for Teams,Engineering,5610,MGR01,Wire Transfer,BU015,No,No,Q3
+TXN10458,2024-08-14,Office Supplies,WeWork,Engineering,160,MGR04,Corporate Card,BU013,No,No,Q4
+TXN10459,2024-12-01,Facilities,LegalZoom,Engineering,350,MGR09,Corporate Card,BU003,No,No,Q2
+TXN10460,2024-05-11,Training,OLA Business,Marketing,360,MGR08,Corporate Card,BU009,Yes,No,Q2
+TXN10461,2024-09-02,Training,Zoom,Finance,910,MGR17,Corporate Card,BU012,No,Yes,Q3
+TXN10462,2024-04-19,Marketing,Zoom,Finance,1170,MGR17,Corporate Card,BU007,No,No,Q4
+TXN10463,2024-04-13,Facilities,Microsoft,Operations,600,MGR18,Wire Transfer,BU001,No,Yes,Q1
+TXN10464,2024-10-02,Cloud Infrastructure,LegalZoom,Engineering,90,MGR19,Corporate Card,BU008,No,Yes,Q4
+TXN10465,2024-05-18,Facilities,AWS,Marketing,150,MGR19,Corporate Card,BU010,No,No,Q1
+TXN10466,2024-10-14,Marketing,LegalZoom,Sales,230,MGR08,Wire Transfer,BU013,No,No,Q1
+TXN10467,2024-12-22,Software Subscriptions,Zoom,Sales,1300,MGR15,Reimbursement,BU005,Yes,Yes,Q1
+TXN10468,2024-05-19,Marketing,Coursera for Teams,Operations,120,MGR12,Corporate Card,BU006,No,No,Q4
+TXN10469,2024-03-11,Salaries,Microsoft,Operations,220,MGR13,Wire Transfer,BU009,No,No,Q3
+TXN10470,2024-02-25,Salaries,Unknown,Engineering,170,MGR15,Direct Debit,BU010,No,Yes,Q1
+TXN10471,2024-11-11,Salaries,Coursera for Teams,Engineering,1000,MGR19,Direct Debit,BU015,Yes,No,Q4
+TXN10472,2024-10-27,Salaries,Swiggy for Teams,Sales,2590,MGR17,Reimbursement,BU014,No,Yes,Q4
+TXN10473,2024-05-02,Facilities,AWS,Sales,800,MGR05,Wire Transfer,BU008,No,No,Q4
+TXN10474,2024-05-04,Software Subscriptions,OLA Business,Sales,7280,MGR12,Corporate Card,BU014,No,Yes,Q1
+TXN10475,2024-01-26,Marketing,Unknown,Sales,800,MGR01,Wire Transfer,BU011,No,No,Q1
+TXN10476,2024-12-08,Facilities,Coursera for Teams,Finance,590,MGR16,Wire Transfer,BU014,No,Yes,Q3
+TXN10477,2024-09-28,Salaries,Swiggy for Teams,Engineering,260,MGR04,Corporate Card,BU014,No,No,Q4
+TXN10478,2024-04-25,Salaries,WeWork,Engineering,850,MGR10,Wire Transfer,BU003,Yes,No,Q3
+TXN10479,2024-11-22,Salaries,Salesforce,Sales,250,MGR14,Wire Transfer,BU013,No,No,Q3
+TXN10480,2024-04-29,Salaries,AWS,Marketing,210,MGR03,Direct Debit,BU005,No,Yes,Q4
+TXN10481,2024-01-27,Software Subscriptions,OLA Business,Sales,200,MGR04,Corporate Card,BU004,No,Yes,Q2
+TXN10482,2024-02-21,Salaries,Microsoft,HR,510,MGR05,Corporate Card,BU014,No,No,Q3
+TXN10483,2024-07-30,R&D,LegalZoom,Operations,360,MGR12,Wire Transfer,BU001,No,No,Q2
+TXN10484,2024-06-18,Salaries,Salesforce,HR,16090,MGR10,Corporate Card,BU005,No,No,Q1
+TXN10485,2024-08-29,Travel,AWS,Marketing,860,MGR11,Wire Transfer,BU010,No,No,Q1
+TXN10486,2024-02-21,Legal & Compliance,Unknown,Operations,840,MGR15,Corporate Card,BU007,No,No,Q4
+TXN10487,2024-12-14,Marketing,WeWork,Marketing,340,MGR07,Wire Transfer,BU001,No,Yes,Q4
+TXN10488,2024-03-11,Software Subscriptions,Microsoft,Operations,26330,MGR17,Wire Transfer,BU004,Yes,No,Q2
+TXN10489,2024-01-03,Facilities,Zoom,Sales,220,MGR16,Corporate Card,BU006,No,Yes,Q1
+TXN10490,2024-10-08,Software Subscriptions,Coursera for Teams,Sales,380,MGR12,Corporate Card,BU011,No,Yes,Q1
+TXN10491,2024-03-21,R&D,Coursera for Teams,Marketing,2210,MGR16,Corporate Card,BU012,No,No,Q4
+TXN10492,2024-07-27,Salaries,Microsoft,Operations,850,MGR04,Corporate Card,BU009,No,No,Q3
+TXN10493,2024-11-30,Training,Zoom,Finance,140,MGR15,Wire Transfer,BU011,Yes,Yes,Q4
+TXN10494,2024-08-31,Salaries,Coursera for Teams,Marketing,690,MGR15,Wire Transfer,BU008,No,Yes,Q4
+TXN10495,2024-09-01,Office Supplies,AWS,Marketing,1500,MGR11,Corporate Card,BU002,No,Yes,Q2
+TXN10496,2024-11-29,Cloud Infrastructure,Microsoft,HR,1230,MGR03,Wire Transfer,BU011,No,No,Q1
+TXN10497,2024-04-12,R&D,Microsoft,Engineering,1470,MGR10,Corporate Card,BU003,No,Yes,Q3
+TXN10498,2024-05-27,Training,Unknown,Marketing,9160,MGR02,Reimbursement,BU010,No,No,Q1
+TXN10499,2024-06-13,Cloud Infrastructure,Zoom,Finance,920,MGR04,Corporate Card,BU013,No,Yes,Q1
+TXN10500,2024-05-26,R&D,Unknown,Sales,1730,MGR01,Reimbursement,BU005,No,No,Q2
+TXN10501,2024-11-26,Office Supplies,Zoom,Operations,50,MGR11,Wire Transfer,BU011,Yes,Yes,Q3
+TXN10502,2024-01-31,Travel,Unknown,Engineering,6240,MGR04,Wire Transfer,BU007,No,Yes,Q3
+TXN10503,2024-02-15,Travel,Microsoft,Operations,720,MGR06,Wire Transfer,BU003,No,No,Q2
+TXN10504,2024-11-29,Cloud Infrastructure,LegalZoom,Sales,230,MGR08,Reimbursement,BU012,No,No,Q3
+TXN10505,2024-10-20,Legal & Compliance,LegalZoom,Marketing,530,MGR17,Direct Debit,BU007,No,Yes,Q1
+TXN10506,2024-04-28,Cloud Infrastructure,LegalZoom,HR,1470,MGR06,Wire Transfer,BU005,No,No,Q4
+TXN10507,2024-09-30,Facilities,Microsoft,Finance,2300,MGR18,Corporate Card,BU010,No,No,Q3
+TXN10508,2024-01-20,Cloud Infrastructure,Coursera for Teams,Engineering,590,MGR06,Reimbursement,BU006,No,Yes,Q1
+TXN10509,2024-03-30,Marketing,WeWork,Finance,1370,MGR11,Corporate Card,BU006,No,Yes,Q3
+TXN10510,2024-08-01,Software Subscriptions,OLA Business,Finance,480,MGR18,Reimbursement,BU011,No,No,Q3
+TXN10511,2024-03-31,R&D,WeWork,Finance,1200,MGR14,Wire Transfer,BU011,No,No,Q1
+TXN10512,2024-01-19,Travel,LegalZoom,Finance,850,MGR15,Direct Debit,BU014,Yes,Yes,Q2
+TXN10513,2024-07-22,Salaries,Coursera for Teams,Sales,950,MGR08,Reimbursement,BU012,Yes,Yes,Q4
+TXN10514,2024-09-10,Marketing,Microsoft,Finance,460,MGR13,Corporate Card,BU004,No,No,Q1
+TXN10515,2024-04-05,Office Supplies,Swiggy for Teams,HR,1080,MGR06,Wire Transfer,BU012,No,No,Q3
+TXN10516,2024-05-28,Cloud Infrastructure,Coursera for Teams,Finance,250,MGR06,Corporate Card,BU008,No,No,Q4
+TXN10517,2024-01-20,Office Supplies,Swiggy for Teams,Sales,840,MGR14,Corporate Card,BU009,Yes,Yes,Q2
+TXN10518,2024-01-05,Facilities,Microsoft,Operations,310,MGR13,Corporate Card,BU002,No,No,Q2
+TXN10519,2024-06-01,Salaries,AWS,Sales,200,MGR01,Corporate Card,BU009,No,Yes,Q4
+TXN10520,2024-10-17,Cloud Infrastructure,Zoom,HR,290,MGR20,Wire Transfer,BU011,No,Yes,Q2
+TXN10521,2024-11-04,Training,OLA Business,HR,520,MGR07,Direct Debit,BU012,No,No,Q3
+TXN10522,2024-02-24,Cloud Infrastructure,WeWork,Marketing,350,MGR15,Wire Transfer,BU004,No,No,Q4
+TXN10523,2024-06-20,Facilities,Unknown,Sales,1070,MGR19,Corporate Card,BU006,No,No,Q4
+TXN10524,2024-05-25,Office Supplies,Unknown,Operations,730,MGR14,Reimbursement,BU014,No,Yes,Q4
+TXN10525,2024-08-20,Travel,Zoom,Marketing,2250,MGR13,Reimbursement,BU007,No,No,Q4
+TXN10526,2024-11-24,Travel,Coursera for Teams,Marketing,600,MGR01,Wire Transfer,BU004,No,Yes,Q3
+TXN10527,2024-10-05,Facilities,Unknown,Engineering,830,MGR07,Wire Transfer,BU008,No,Yes,Q4
+TXN10528,2024-09-25,R&D,Salesforce,Finance,6240,MGR07,Reimbursement,BU013,Yes,No,Q4
+TXN10529,2024-09-09,Marketing,Unknown,Marketing,390,MGR09,Corporate Card,BU014,No,No,Q4
+TXN10530,2024-03-09,Cloud Infrastructure,Microsoft,Marketing,470,MGR03,Direct Debit,BU010,No,Yes,Q4
+TXN10531,2024-09-15,Travel,Zoom,HR,2820,MGR19,Direct Debit,BU008,No,Yes,Q1
+TXN10532,2024-08-27,Software Subscriptions,OLA Business,Operations,210,MGR04,Reimbursement,BU001,No,Yes,Q3
+TXN10533,2024-05-19,Cloud Infrastructure,Zoom,Marketing,3220,MGR18,Corporate Card,BU008,No,No,Q1
+TXN10534,2024-04-08,Travel,OLA Business,Operations,500,MGR06,Reimbursement,BU010,Yes,No,Q2
+TXN10535,2024-02-27,Salaries,Salesforce,Finance,240,MGR12,Wire Transfer,BU014,Yes,Yes,Q1
+TXN10536,2024-06-18,Cloud Infrastructure,Unknown,HR,1970,MGR11,Wire Transfer,BU012,No,No,Q4
+TXN10537,2024-03-24,Training,Zoom,Engineering,490,MGR07,Reimbursement,BU003,No,Yes,Q2
+TXN10538,2024-08-22,Salaries,Swiggy for Teams,Engineering,5940,MGR15,Corporate Card,BU005,No,Yes,Q3
+TXN10539,2024-11-27,Cloud Infrastructure,LegalZoom,Finance,730,MGR04,Corporate Card,BU014,No,No,Q3
+TXN10540,2024-05-11,Salaries,Salesforce,Finance,730,MGR09,Reimbursement,BU010,No,No,Q1
+TXN10541,2024-04-05,Travel,Coursera for Teams,HR,330,MGR16,Reimbursement,BU008,No,Yes,Q3
+TXN10542,2024-01-08,Training,Swiggy for Teams,HR,560,MGR17,Reimbursement,BU011,No,Yes,Q3
+TXN10543,2024-06-21,Software Subscriptions,OLA Business,Sales,480,MGR11,Corporate Card,BU006,No,Yes,Q4
+TXN10544,2024-05-31,Travel,Zoom,Marketing,3290,MGR20,Wire Transfer,BU004,No,No,Q1
+TXN10545,2024-10-17,Salaries,OLA Business,Marketing,940,MGR13,Corporate Card,BU015,No,Yes,Q2
+TXN10546,2024-12-11,Facilities,OLA Business,Marketing,1550,MGR20,Reimbursement,BU004,No,No,Q3
+TXN10547,2024-04-08,Software Subscriptions,Salesforce,Operations,750,MGR13,Corporate Card,BU012,Yes,Yes,Q1
+TXN10548,2024-03-30,Travel,Swiggy for Teams,Sales,410,MGR19,Wire Transfer,BU004,No,Yes,Q1
+TXN10549,2024-11-08,Travel,Zoom,Marketing,1040,MGR04,Wire Transfer,BU006,No,No,Q1
+TXN10550,2024-11-23,Marketing,Unknown,Operations,4490,MGR12,Direct Debit,BU007,No,Yes,Q3
+TXN10551,2024-07-26,Salaries,AWS,Operations,190,MGR12,Wire Transfer,BU013,No,No,Q2
+TXN10552,2024-08-06,Software Subscriptions,WeWork,Engineering,1100,MGR15,Wire Transfer,BU005,No,No,Q3
+TXN10553,2024-09-20,Legal & Compliance,WeWork,Operations,4010,MGR20,Corporate Card,BU010,No,No,Q4
+TXN10554,2024-06-16,Training,Salesforce,Finance,250,MGR06,Wire Transfer,BU014,No,Yes,Q4
+TXN10555,2024-02-14,Cloud Infrastructure,Coursera for Teams,HR,2010,MGR10,Wire Transfer,BU008,No,No,Q2
+TXN10556,2024-07-24,Salaries,Microsoft,Operations,2010,MGR20,Corporate Card,BU007,No,Yes,Q3
+TXN10557,2024-12-08,Marketing,AWS,Finance,140,MGR19,Wire Transfer,BU008,No,No,Q1
+TXN10558,2024-02-18,Marketing,Zoom,Finance,2520,MGR03,Reimbursement,BU015,Yes,No,Q1
+TXN10559,2024-04-04,Salaries,WeWork,Engineering,330,MGR05,Corporate Card,BU004,No,Yes,Q2
+TXN10560,2024-03-12,Travel,Coursera for Teams,Engineering,1020,MGR11,Corporate Card,BU008,No,Yes,Q2
+TXN10561,2024-09-01,Cloud Infrastructure,Microsoft,Operations,2270,MGR04,Wire Transfer,BU013,No,No,Q3
+TXN10562,2024-06-14,Marketing,Swiggy for Teams,Engineering,2810,MGR08,Reimbursement,BU006,Yes,No,Q4
+TXN10563,2024-05-07,Office Supplies,Zoom,Engineering,110,MGR10,Corporate Card,BU003,Yes,No,Q4
+TXN10564,2024-01-04,Office Supplies,OLA Business,HR,5690,MGR04,Direct Debit,BU013,No,No,Q1
+TXN10565,2024-05-13,Software Subscriptions,Coursera for Teams,Marketing,3650,MGR06,Direct Debit,BU008,No,No,Q3
+TXN10566,2024-07-15,Facilities,Zoom,Operations,2350,MGR12,Corporate Card,BU013,No,No,Q1
+TXN10567,2024-04-30,Software Subscriptions,AWS,Operations,1030,MGR05,Corporate Card,BU007,No,Yes,Q3
+TXN10568,2024-08-16,Facilities,OLA Business,Operations,390,MGR17,Wire Transfer,BU010,Yes,Yes,Q1
+TXN10569,2024-05-16,Salaries,AWS,Engineering,180,MGR13,Direct Debit,BU005,No,No,Q4
+TXN10570,2024-06-17,Facilities,LegalZoom,HR,90,MGR14,Wire Transfer,BU011,No,No,Q4
+TXN10571,2024-06-03,Salaries,WeWork,Engineering,1440,MGR20,Corporate Card,BU004,No,No,Q1
+TXN10572,2024-10-25,R&D,Microsoft,Finance,2350,MGR05,Corporate Card,BU001,No,Yes,Q4
+TXN10573,2024-10-20,Software Subscriptions,Coursera for Teams,Sales,600,MGR19,Wire Transfer,BU010,No,No,Q3
+TXN10574,2024-01-06,Salaries,OLA Business,Sales,380,MGR13,Wire Transfer,BU003,No,Yes,Q3
+TXN10575,2024-05-13,Software Subscriptions,WeWork,Sales,720,MGR14,Corporate Card,BU002,No,No,Q3
+TXN10576,2024-11-30,Salaries,Salesforce,Marketing,310,MGR06,Wire Transfer,BU008,No,No,Q3
+TXN10577,2024-07-03,Salaries,AWS,Engineering,680,MGR16,Corporate Card,BU014,No,Yes,Q4
+TXN10578,2024-12-20,Cloud Infrastructure,LegalZoom,Finance,290,MGR18,Wire Transfer,BU008,No,No,Q4
+TXN10579,2024-04-30,Marketing,AWS,Finance,1390,MGR06,Corporate Card,BU012,No,No,Q3
+TXN10580,2024-02-01,Travel,Zoom,Sales,2960,MGR18,Corporate Card,BU005,Yes,No,Q4
+TXN10581,2024-12-07,Cloud Infrastructure,Swiggy for Teams,HR,1220,MGR06,Reimbursement,BU014,No,Yes,Q4
+TXN10582,2024-03-01,Salaries,LegalZoom,Marketing,600,MGR16,Corporate Card,BU005,Yes,Yes,Q2
+TXN10583,2024-08-26,Software Subscriptions,LegalZoom,Marketing,2180,MGR10,Wire Transfer,BU015,Yes,Yes,Q1
+TXN10584,2024-06-06,R&D,Microsoft,Sales,680,MGR05,Corporate Card,BU011,No,Yes,Q4
+TXN10585,2024-03-22,R&D,Coursera for Teams,Sales,2100,MGR06,Corporate Card,BU004,No,Yes,Q4
+TXN10586,2024-07-26,Facilities,Salesforce,Engineering,310,MGR11,Corporate Card,BU001,No,Yes,Q1
+TXN10587,2024-12-17,Facilities,Salesforce,HR,360,MGR15,Corporate Card,BU001,No,No,Q2
+TXN10588,2024-09-14,Travel,Microsoft,Marketing,200,MGR20,Corporate Card,BU013,Yes,No,Q1
+TXN10589,2024-12-26,R&D,AWS,Finance,380,MGR02,Reimbursement,BU006,No,No,Q4
+TXN10590,2024-06-08,Salaries,Unknown,Sales,2160,MGR12,Corporate Card,BU015,No,No,Q4
+TXN10591,2024-12-19,Software Subscriptions,WeWork,Engineering,230,MGR01,Corporate Card,BU004,No,No,Q3
+TXN10592,2024-03-01,Legal & Compliance,Unknown,Finance,50,MGR16,Reimbursement,BU004,No,No,Q2
+TXN10593,2024-11-23,Office Supplies,Zoom,Marketing,400,MGR05,Corporate Card,BU003,No,Yes,Q4
+TXN10594,2024-05-31,Salaries,Salesforce,Sales,160,MGR07,Wire Transfer,BU014,No,Yes,Q1
+TXN10595,2024-07-07,Software Subscriptions,Coursera for Teams,HR,360,MGR13,Corporate Card,BU009,No,No,Q4
+TXN10596,2024-11-10,Salaries,Swiggy for Teams,Sales,8340,MGR18,Corporate Card,BU003,No,No,Q2
+TXN10597,2024-04-23,Salaries,AWS,HR,230,MGR17,Wire Transfer,BU008,No,No,Q3
+TXN10598,2024-04-22,Salaries,Coursera for Teams,Engineering,1420,MGR16,Direct Debit,BU002,No,No,Q3
+TXN10599,2024-03-09,Travel,Coursera for Teams,Engineering,600,MGR14,Corporate Card,BU004,No,Yes,Q3
+TXN10600,2024-09-01,Salaries,OLA Business,Marketing,1040,MGR16,Corporate Card,BU001,No,No,Q4
+TXN10601,2024-03-19,Salaries,LegalZoom,HR,360,MGR14,Corporate Card,BU011,Yes,No,Q4
+TXN10602,2024-08-20,Office Supplies,WeWork,Sales,2680,MGR15,Corporate Card,BU005,No,No,Q4
+TXN10603,2024-11-06,R&D,LegalZoom,Engineering,1110,MGR16,Direct Debit,BU002,No,No,Q1
+TXN10604,2024-07-10,Salaries,Coursera for Teams,Sales,1150,MGR06,Corporate Card,BU011,No,No,Q2
+TXN10605,2024-07-31,Facilities,Microsoft,Marketing,750,MGR03,Reimbursement,BU013,No,Yes,Q3
+TXN10606,2024-12-25,Travel,Unknown,HR,3000,MGR19,Corporate Card,BU001,No,Yes,Q4
+TXN10607,2024-10-08,Marketing,OLA Business,Sales,1300,MGR01,Reimbursement,BU001,No,Yes,Q3
+TXN10608,2024-08-29,Software Subscriptions,LegalZoom,Finance,1040,MGR08,Wire Transfer,BU002,Yes,No,Q4
+TXN10609,2024-10-02,Salaries,Zoom,Sales,1460,MGR10,Reimbursement,BU005,No,Yes,Q4
+TXN10610,2024-12-06,Travel,Swiggy for Teams,Operations,80,MGR02,Corporate Card,BU012,No,Yes,Q3
+TXN10611,2024-04-21,Salaries,Swiggy for Teams,Operations,830,MGR09,Reimbursement,BU015,No,Yes,Q4
+TXN10612,2024-05-06,Marketing,WeWork,Marketing,620,MGR08,Wire Transfer,BU015,No,No,Q4
+TXN10613,2024-12-14,Office Supplies,Zoom,Marketing,2700,MGR18,Wire Transfer,BU009,No,No,Q4
+TXN10614,2024-11-01,Cloud Infrastructure,LegalZoom,Marketing,290,MGR10,Reimbursement,BU006,No,No,Q3
+TXN10615,2024-02-11,R&D,LegalZoom,Finance,850,MGR06,Wire Transfer,BU012,No,Yes,Q4
+TXN10616,2024-09-26,Software Subscriptions,Coursera for Teams,HR,6690,MGR15,Reimbursement,BU004,No,Yes,Q1
+TXN10617,2024-08-16,Cloud Infrastructure,LegalZoom,Finance,640,MGR19,Corporate Card,BU015,No,Yes,Q3
+TXN10618,2024-09-27,Training,Zoom,Sales,130,MGR16,Wire Transfer,BU003,No,No,Q1
+TXN10619,2024-12-26,Salaries,Swiggy for Teams,Engineering,9030,MGR18,Reimbursement,BU008,No,No,Q1
+TXN10620,2024-07-04,Facilities,Coursera for Teams,HR,280,MGR17,Corporate Card,BU003,No,No,Q4
+TXN10621,2024-02-09,R&D,AWS,Operations,190,MGR04,Wire Transfer,BU001,Yes,Yes,Q3
+TXN10622,2024-10-15,Marketing,Zoom,Operations,200,MGR19,Direct Debit,BU004,Yes,No,Q2
+TXN10623,2024-02-27,Cloud Infrastructure,Microsoft,Operations,1590,MGR04,Wire Transfer,BU011,No,No,Q2
+TXN10624,2024-02-01,Cloud Infrastructure,LegalZoom,Sales,3160,MGR09,Corporate Card,BU013,No,Yes,Q4
+TXN10625,2024-10-07,Salaries,Swiggy for Teams,Sales,5500,MGR18,Corporate Card,BU005,Yes,Yes,Q4
+TXN10626,2024-09-15,Marketing,Unknown,Marketing,680,MGR12,Reimbursement,BU005,No,No,Q1
+TXN10627,2024-04-13,R&D,LegalZoom,Engineering,200,MGR18,Direct Debit,BU005,No,No,Q4
+TXN10628,2024-10-20,Legal & Compliance,Microsoft,Marketing,340,MGR02,Direct Debit,BU008,No,No,Q2
+TXN10629,2024-10-01,Travel,Swiggy for Teams,Sales,690,MGR15,Wire Transfer,BU008,Yes,No,Q3
+TXN10630,2024-03-17,Travel,WeWork,Finance,650,MGR18,Wire Transfer,BU012,No,Yes,Q3
+TXN10631,2024-03-25,R&D,LegalZoom,Marketing,3200,MGR07,Corporate Card,BU013,No,No,Q4
+TXN10632,2024-06-16,Travel,Coursera for Teams,HR,140,MGR14,Corporate Card,BU004,No,Yes,Q4
+TXN10633,2024-09-23,Cloud Infrastructure,OLA Business,Sales,170,MGR04,Corporate Card,BU015,Yes,No,Q2
+TXN10634,2024-08-14,Office Supplies,Zoom,Sales,460,MGR08,Corporate Card,BU009,No,No,Q3
+TXN10635,2024-02-29,Travel,Microsoft,Finance,1040,MGR10,Reimbursement,BU001,No,No,Q2
+TXN10636,2024-12-14,Travel,LegalZoom,Finance,390,MGR02,Reimbursement,BU005,No,No,Q3
+TXN10637,2024-04-15,Marketing,AWS,Finance,350,MGR15,Wire Transfer,BU005,No,No,Q3
+TXN10638,2024-10-25,Travel,Unknown,Engineering,2720,MGR09,Direct Debit,BU005,No,No,Q2
+TXN10639,2024-09-07,Salaries,Swiggy for Teams,HR,1170,MGR12,Direct Debit,BU008,Yes,Yes,Q2
+TXN10640,2024-02-16,Cloud Infrastructure,Microsoft,Sales,200,MGR03,Wire Transfer,BU009,No,Yes,Q1
+TXN10641,2024-09-18,Marketing,Zoom,Finance,360,MGR15,Wire Transfer,BU003,No,No,Q3
+TXN10642,2024-08-16,Training,LegalZoom,Engineering,1240,MGR04,Corporate Card,BU009,No,No,Q4
+TXN10643,2024-01-29,Salaries,AWS,Operations,150,MGR08,Wire Transfer,BU013,No,Yes,Q2
+TXN10644,2024-08-20,Salaries,Swiggy for Teams,HR,1230,MGR07,Corporate Card,BU011,No,Yes,Q4
+TXN10645,2024-03-08,Salaries,Zoom,Operations,440,MGR19,Corporate Card,BU008,No,No,Q1
+TXN10646,2024-09-19,Salaries,Swiggy for Teams,Operations,1030,MGR12,Direct Debit,BU003,Yes,No,Q3
+TXN10647,2024-07-31,R&D,Zoom,Sales,770,MGR20,Corporate Card,BU002,No,No,Q3
+TXN10648,2024-08-21,Cloud Infrastructure,LegalZoom,Engineering,170,MGR14,Corporate Card,BU015,No,No,Q1
+TXN10649,2024-10-15,Marketing,OLA Business,Engineering,310,MGR06,Wire Transfer,BU004,No,No,Q2
+TXN10650,2024-01-30,Training,Salesforce,Operations,3780,MGR20,Wire Transfer,BU015,Yes,No,Q4
+TXN10651,2024-10-13,Marketing,Coursera for Teams,HR,11450,MGR05,Corporate Card,BU013,No,Yes,Q3
+TXN10652,2024-08-24,Software Subscriptions,OLA Business,Marketing,80,MGR07,Corporate Card,BU012,No,No,Q2
+TXN10653,2024-12-10,Salaries,Salesforce,Operations,2330,MGR07,Direct Debit,BU002,No,No,Q2
+TXN10654,2024-06-06,Training,LegalZoom,Sales,950,MGR02,Corporate Card,BU004,Yes,No,Q4
+TXN10655,2024-01-12,Marketing,LegalZoom,Operations,8090,MGR19,Reimbursement,BU005,Yes,Yes,Q2
+TXN10656,2024-07-21,Facilities,LegalZoom,HR,340,MGR12,Wire Transfer,BU002,No,Yes,Q4
+TXN10657,2024-05-10,Marketing,Salesforce,HR,1950,MGR18,Corporate Card,BU012,No,Yes,Q2
+TXN10658,2024-01-02,Marketing,AWS,Operations,460,MGR09,Corporate Card,BU008,No,No,Q3
+TXN10659,2024-04-21,R&D,Microsoft,Engineering,3100,MGR20,Reimbursement,BU001,No,Yes,Q1
+TXN10660,2024-10-23,Salaries,Salesforce,Operations,10650,MGR18,Reimbursement,BU003,No,No,Q4
+TXN10661,2024-02-07,Legal & Compliance,Unknown,Finance,860,MGR06,Corporate Card,BU007,No,No,Q4
+TXN10662,2024-01-24,Legal & Compliance,Microsoft,Finance,170,MGR11,Corporate Card,BU010,No,No,Q3
+TXN10663,2024-08-04,R&D,Unknown,Marketing,3630,MGR10,Corporate Card,BU001,Yes,No,Q1
+TXN10664,2024-06-25,Travel,Zoom,Sales,1310,MGR10,Reimbursement,BU013,No,No,Q3
+TXN10665,2024-12-24,Office Supplies,Coursera for Teams,Sales,1050,MGR19,Corporate Card,BU011,Yes,No,Q2
+TXN10666,2024-02-02,Training,Coursera for Teams,Engineering,4450,MGR09,Corporate Card,BU015,No,Yes,Q2
+TXN10667,2024-10-04,Salaries,Coursera for Teams,Sales,170,MGR17,Corporate Card,BU002,Yes,Yes,Q4
+TXN10668,2024-01-31,Salaries,WeWork,Marketing,280,MGR04,Wire Transfer,BU003,Yes,No,Q4
+TXN10669,2024-02-05,Software Subscriptions,Salesforce,Finance,1360,MGR05,Reimbursement,BU014,No,Yes,Q2
+TXN10670,2024-08-29,Marketing,AWS,Engineering,270,MGR14,Wire Transfer,BU014,No,No,Q4
+TXN10671,2024-01-17,Salaries,Zoom,HR,460,MGR02,Corporate Card,BU002,No,No,Q4
+TXN10672,2024-05-26,Office Supplies,LegalZoom,Finance,3070,MGR09,Corporate Card,BU002,No,No,Q3
+TXN10673,2024-07-28,Software Subscriptions,Salesforce,Marketing,1120,MGR05,Corporate Card,BU012,Yes,Yes,Q3
+TXN10674,2024-04-02,Travel,Unknown,Engineering,160,MGR05,Corporate Card,BU011,Yes,Yes,Q4
+TXN10675,2024-03-10,Software Subscriptions,Unknown,Operations,1090,MGR08,Reimbursement,BU006,No,No,Q3
+TXN10676,2024-11-24,Training,Microsoft,Sales,2940,MGR05,Corporate Card,BU007,No,No,Q3
+TXN10677,2024-11-26,Cloud Infrastructure,LegalZoom,Marketing,820,MGR11,Corporate Card,BU006,No,No,Q4
+TXN10678,2024-08-03,Travel,WeWork,Engineering,1890,MGR08,Wire Transfer,BU011,No,Yes,Q2
+TXN10679,2024-07-10,Software Subscriptions,Unknown,Finance,360,MGR13,Wire Transfer,BU006,No,No,Q4
+TXN10680,2024-07-14,Salaries,Coursera for Teams,Engineering,910,MGR16,Wire Transfer,BU015,No,Yes,Q3
+TXN10681,2024-08-17,Marketing,Microsoft,Operations,100,MGR05,Reimbursement,BU009,Yes,Yes,Q3
+TXN10682,2024-07-12,Legal & Compliance,OLA Business,Marketing,1420,MGR19,Wire Transfer,BU008,No,Yes,Q1
+TXN10683,2024-07-11,Legal & Compliance,Swiggy for Teams,Engineering,1020,MGR09,Reimbursement,BU014,No,No,Q2
+TXN10684,2024-02-11,Facilities,Microsoft,HR,140,MGR14,Wire Transfer,BU008,No,Yes,Q2
+TXN10685,2024-12-15,Salaries,Microsoft,Marketing,4130,MGR13,Corporate Card,BU006,No,Yes,Q2
+TXN10686,2024-12-04,Marketing,Unknown,Marketing,1320,MGR15,Corporate Card,BU005,No,Yes,Q4
+TXN10687,2024-10-03,Cloud Infrastructure,Salesforce,Finance,290,MGR03,Direct Debit,BU009,No,No,Q2
+TXN10688,2024-03-09,Travel,LegalZoom,Sales,1460,MGR03,Direct Debit,BU012,No,No,Q1
+TXN10689,2024-11-30,Travel,OLA Business,HR,200,MGR13,Wire Transfer,BU002,No,Yes,Q3
+TXN10690,2024-06-27,Travel,Coursera for Teams,Operations,240,MGR17,Wire Transfer,BU007,No,No,Q3
+TXN10691,2024-03-01,Salaries,Salesforce,Engineering,210,MGR09,Corporate Card,BU006,Yes,No,Q1
+TXN10692,2024-04-01,Office Supplies,Zoom,Sales,200,MGR12,Wire Transfer,BU007,No,Yes,Q1
+TXN10693,2024-10-02,Software Subscriptions,Unknown,Finance,1120,MGR15,Direct Debit,BU012,No,Yes,Q4
+TXN10694,2024-07-20,Cloud Infrastructure,LegalZoom,Sales,750,MGR16,Reimbursement,BU004,No,No,Q1
+TXN10695,2024-09-27,R&D,AWS,Marketing,1630,MGR11,Corporate Card,BU009,No,Yes,Q4
+TXN10696,2024-03-06,Software Subscriptions,Coursera for Teams,Marketing,50,MGR19,Corporate Card,BU007,No,Yes,Q2
+TXN10697,2024-04-24,Salaries,Salesforce,Operations,420,MGR01,Wire Transfer,BU002,No,No,Q3
+TXN10698,2024-01-02,Travel,Coursera for Teams,HR,420,MGR03,Corporate Card,BU013,No,No,Q1
+TXN10699,2024-01-12,R&D,LegalZoom,Engineering,710,MGR15,Corporate Card,BU004,No,No,Q4

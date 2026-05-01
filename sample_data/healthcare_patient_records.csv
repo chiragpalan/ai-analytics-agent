@@ -1,0 +1,601 @@
+patient_id,admission_date,ward,diagnosis,age,gender,los_days,treatment_cost_usd,readmitted_30d,insurance_type,doctor_id,patient_satisfaction,emergency_admission
+PAT5000,2024-04-19,Pediatrics,Appendicitis,75,Male,12,3420,No,Self-Pay,DR112,4.8,No
+PAT5001,2024-09-16,Cardiology,Migraine,28,Male,2,500,No,Government,DR136,4.4,Yes
+PAT5002,2024-05-15,General,Pneumonia,66,Male,3,3030,No,Government,DR105,4.9,Yes
+PAT5003,2024-03-08,Pediatrics,Asthma,8,Male,10,750,No,Government,DR111,4.6,No
+PAT5004,2024-06-27,General,COVID-19,29,Female,7,4920,No,Government,DR101,2.8,Yes
+PAT5005,2024-02-05,ICU,Cardiac Arrest,11,Male,1,2060,Yes,Government,DR127,2.3,No
+PAT5006,2024-05-05,General,UTI,18,Female,2,3030,No,Private,DR129,2.3,No
+PAT5007,2024-07-08,Orthopedics,Hypertension,55,Male,2,1930,No,Private,DR139,2.9,No
+PAT5008,2024-05-25,General,COVID-19,50,Female,1,500,No,Government,DR131,3.8,No
+PAT5009,2024-03-21,General,UTI,14,Female,1,910,No,Government,DR119,4.4,No
+PAT5010,2024-08-12,Pediatrics,Pneumonia,74,Female,1,3100,No,Self-Pay,DR103,4.7,Yes
+PAT5011,2024-10-05,Orthopedics,COVID-19,9,Female,5,2070,No,Private,DR115,3.9,No
+PAT5012,2024-12-26,ICU,Appendicitis,11,Male,1,4650,No,Private,DR119,2.0,No
+PAT5013,2024-06-03,Cardiology,COVID-19,63,Male,1,2500,Yes,Private,DR119,2.6,No
+PAT5014,2024-11-09,General,Hypertension,76,Male,1,830,Yes,Government,DR130,2.3,No
+PAT5015,2024-11-30,ICU,Pneumonia,67,Female,7,960,No,Government,DR105,3.1,Yes
+PAT5016,2024-09-27,ICU,Cardiac Arrest,53,Male,9,1960,No,Government,DR115,3.5,Yes
+PAT5017,2024-01-05,Orthopedics,Migraine,39,Male,3,500,No,Self-Pay,DR117,2.1,Yes
+PAT5018,2024-12-07,General,Diabetes Type 2,78,Male,2,6900,Yes,NGO,DR138,3.0,No
+PAT5019,2024-10-10,ICU,Hypertension,56,Male,17,2570,No,Private,DR113,2.5,No
+PAT5020,2024-06-02,General,UTI,28,Female,1,4830,No,Government,DR128,3.9,No
+PAT5021,2024-12-05,Orthopedics,Pneumonia,75,Female,1,510,No,Government,DR108,3.4,No
+PAT5022,2024-02-23,General,Appendicitis,39,Male,2,4890,No,Government,DR135,3.5,No
+PAT5023,2024-03-09,General,Fracture,25,Male,1,10780,No,Private,DR115,3.3,No
+PAT5024,2024-05-15,ICU,Pneumonia,21,Male,2,630,Yes,Government,DR110,4.9,Yes
+PAT5025,2024-02-29,General,UTI,10,Female,11,3350,No,NGO,DR118,2.6,Yes
+PAT5026,2024-02-24,Cardiology,Diabetes Type 2,43,Female,4,1810,No,Government,DR110,3.5,No
+PAT5027,2024-10-10,Cardiology,Diabetes Type 2,15,Female,2,530,No,Self-Pay,DR105,4.2,No
+PAT5028,2024-03-20,General,Asthma,83,Male,12,2680,No,Self-Pay,DR104,3.7,No
+PAT5029,2024-05-19,General,Migraine,48,Female,1,3520,No,Private,DR111,4.8,Yes
+PAT5030,2024-05-24,General,UTI,86,Female,1,1120,Yes,Private,DR120,3.1,No
+PAT5031,2024-11-05,General,Diabetes Type 2,21,Female,4,4600,No,Private,DR139,3.4,Yes
+PAT5032,2024-04-17,ICU,Asthma,60,Female,4,500,No,Private,DR137,2.3,Yes
+PAT5033,2024-06-24,Orthopedics,Asthma,50,Female,1,550,No,Private,DR119,3.8,No
+PAT5034,2024-04-14,Emergency,Asthma,23,Male,2,2020,No,Private,DR129,2.9,Yes
+PAT5035,2024-12-17,Emergency,Pneumonia,13,Male,5,1850,No,NGO,DR108,2.5,Yes
+PAT5036,2024-11-20,Emergency,Asthma,69,Male,5,1020,No,Private,DR130,3.6,Yes
+PAT5037,2024-05-15,Cardiology,Hypertension,4,Male,5,3460,No,Private,DR120,3.6,Yes
+PAT5038,2024-09-15,Cardiology,UTI,78,Female,2,2760,Yes,Self-Pay,DR126,2.2,No
+PAT5039,2024-09-07,General,Hypertension,72,Male,1,3590,No,Government,DR118,4.1,No
+PAT5040,2024-05-08,Cardiology,Fracture,9,Male,3,1640,No,Government,DR133,3.9,Yes
+PAT5041,2024-01-27,Pediatrics,Diabetes Type 2,35,Male,1,2930,No,Private,DR135,2.6,Yes
+PAT5042,2024-02-17,Pediatrics,Migraine,21,Female,13,1270,No,Private,DR132,3.4,Yes
+PAT5043,2024-11-20,Orthopedics,Asthma,58,Male,3,9350,No,Self-Pay,DR129,4.2,No
+PAT5044,2024-08-04,General,Appendicitis,18,Female,2,940,No,Private,DR106,3.6,Yes
+PAT5045,2024-05-21,General,Appendicitis,72,Female,7,9740,No,Private,DR139,3.2,No
+PAT5046,2024-01-23,Emergency,Diabetes Type 2,81,Female,3,1860,No,Private,DR103,3.0,Yes
+PAT5047,2024-01-02,ICU,Fracture,43,Male,2,600,No,Government,DR128,3.8,Yes
+PAT5048,2024-06-19,Pediatrics,Appendicitis,6,Female,8,5400,No,Private,DR121,4.8,No
+PAT5049,2024-03-07,Emergency,Hypertension,86,Male,9,2000,No,Self-Pay,DR139,4.0,No
+PAT5050,2024-11-22,Cardiology,COVID-19,78,Male,5,3570,Yes,Government,DR117,2.2,Yes
+PAT5051,2024-05-14,Pediatrics,Pneumonia,67,Male,1,4810,No,Private,DR102,3.4,No
+PAT5052,2024-03-23,General,Cardiac Arrest,12,Female,4,2370,No,Private,DR106,4.7,No
+PAT5053,2024-08-14,General,Appendicitis,12,Female,6,1130,No,Government,DR115,2.3,No
+PAT5054,2024-10-09,Emergency,Migraine,66,Male,1,3950,No,Government,DR137,5.0,No
+PAT5055,2024-12-27,Pediatrics,Asthma,2,Female,1,1810,No,NGO,DR138,4.8,No
+PAT5056,2024-08-06,Pediatrics,Migraine,15,Female,10,3130,No,Private,DR102,2.2,No
+PAT5057,2024-10-14,ICU,UTI,23,Female,1,500,No,Government,DR118,4.8,Yes
+PAT5058,2024-01-05,ICU,Pneumonia,29,Male,6,2590,No,Government,DR137,3.1,No
+PAT5059,2024-02-27,Emergency,Hypertension,81,Female,3,1080,No,Private,DR103,4.5,No
+PAT5060,2024-02-08,General,Fracture,7,Female,3,6790,No,Private,DR112,3.3,Yes
+PAT5061,2024-12-19,Cardiology,Pneumonia,28,Male,1,2980,No,Private,DR131,3.3,Yes
+PAT5062,2024-03-17,ICU,Cardiac Arrest,14,Female,8,2190,No,Government,DR134,3.9,Yes
+PAT5063,2024-10-06,Cardiology,COVID-19,44,Male,2,2670,No,Self-Pay,DR129,4.3,No
+PAT5064,2024-01-19,Emergency,Appendicitis,30,Female,4,810,No,Private,DR118,2.1,No
+PAT5065,2024-07-08,Cardiology,Fracture,81,Female,5,6620,No,Government,DR112,3.8,No
+PAT5066,2024-10-25,General,Fracture,32,Female,5,8890,No,Private,DR138,2.6,Yes
+PAT5067,2024-10-09,Cardiology,Appendicitis,70,Female,14,2480,No,Private,DR128,3.0,No
+PAT5068,2024-03-16,Orthopedics,Appendicitis,88,Female,3,6450,No,Self-Pay,DR132,3.0,No
+PAT5069,2024-08-08,General,Appendicitis,6,Female,2,1150,No,Self-Pay,DR106,3.4,No
+PAT5070,2024-03-06,Emergency,Appendicitis,27,Male,14,960,No,Government,DR131,3.0,No
+PAT5071,2024-01-22,Cardiology,Appendicitis,82,Female,5,1870,No,Self-Pay,DR123,2.3,No
+PAT5072,2024-06-06,Emergency,Fracture,88,Female,2,2560,No,Self-Pay,DR127,2.4,No
+PAT5073,2024-07-05,Cardiology,Diabetes Type 2,24,Female,1,1320,Yes,NGO,DR122,2.1,No
+PAT5074,2024-01-21,General,Diabetes Type 2,34,Male,8,2780,No,Government,DR121,3.4,No
+PAT5075,2024-07-02,General,Migraine,40,Male,2,2310,No,Private,DR107,4.9,No
+PAT5076,2024-04-17,General,Diabetes Type 2,47,Male,5,810,No,Government,DR111,2.3,No
+PAT5077,2024-12-15,Emergency,Cardiac Arrest,79,Female,3,2740,Yes,Self-Pay,DR122,4.8,Yes
+PAT5078,2024-05-07,Orthopedics,Diabetes Type 2,75,Female,1,3610,No,Government,DR127,4.2,Yes
+PAT5079,2024-12-07,Cardiology,Fracture,86,Male,4,2070,No,Private,DR132,3.9,Yes
+PAT5080,2024-02-22,General,Appendicitis,24,Male,1,4550,No,Government,DR119,3.9,No
+PAT5081,2024-06-30,General,Asthma,65,Male,2,680,No,Government,DR126,4.5,No
+PAT5082,2024-10-13,Orthopedics,Asthma,18,Female,4,2630,No,Private,DR136,2.3,Yes
+PAT5083,2024-07-27,Pediatrics,Cardiac Arrest,44,Male,3,710,No,Self-Pay,DR103,3.5,Yes
+PAT5084,2024-11-13,General,UTI,76,Female,6,740,Yes,Private,DR130,4.1,No
+PAT5085,2024-03-20,Cardiology,Fracture,57,Female,8,1090,No,Self-Pay,DR106,3.8,No
+PAT5086,2024-05-01,ICU,Hypertension,28,Female,7,850,No,Government,DR121,4.5,No
+PAT5087,2024-03-24,General,Pneumonia,71,Male,1,1170,No,Private,DR117,2.2,No
+PAT5088,2024-03-31,Pediatrics,Migraine,23,Female,1,1520,No,Private,DR121,4.1,No
+PAT5089,2024-07-30,General,Hypertension,85,Male,3,3530,No,Government,DR108,3.6,No
+PAT5090,2024-01-13,Emergency,Fracture,34,Male,12,1400,No,Private,DR126,3.1,No
+PAT5091,2024-04-01,General,Diabetes Type 2,11,Male,8,510,No,Private,DR133,3.0,Yes
+PAT5092,2024-06-19,General,Appendicitis,86,Male,8,4500,No,Private,DR101,3.9,No
+PAT5093,2024-07-29,General,Hypertension,35,Female,2,930,No,Private,DR135,4.7,Yes
+PAT5094,2024-12-08,Orthopedics,Pneumonia,42,Female,3,1730,No,Private,DR130,3.5,No
+PAT5095,2024-05-07,General,UTI,28,Female,3,2580,Yes,Government,DR127,4.5,No
+PAT5096,2024-05-16,Pediatrics,Asthma,82,Female,1,2120,No,Government,DR104,3.2,No
+PAT5097,2024-03-22,ICU,UTI,78,Male,1,4340,No,Private,DR113,2.3,Yes
+PAT5098,2024-12-25,ICU,Pneumonia,82,Male,13,2650,No,Government,DR134,2.2,No
+PAT5099,2024-02-25,General,Appendicitis,24,Male,1,910,No,Government,DR124,2.2,Yes
+PAT5100,2024-07-14,Orthopedics,Diabetes Type 2,8,Male,1,10330,No,Private,DR140,3.1,Yes
+PAT5101,2024-01-20,Emergency,Pneumonia,53,Female,1,2110,No,Private,DR132,3.0,Yes
+PAT5102,2024-08-28,ICU,Migraine,72,Male,12,1610,No,Government,DR129,4.2,No
+PAT5103,2024-04-23,Pediatrics,Pneumonia,4,Female,4,3910,No,Private,DR104,4.2,No
+PAT5104,2024-04-12,Emergency,Fracture,5,Male,5,2210,No,Private,DR114,2.2,No
+PAT5105,2024-08-23,General,Diabetes Type 2,49,Male,11,2490,No,Government,DR118,2.7,No
+PAT5106,2024-06-28,Orthopedics,Appendicitis,30,Male,2,13280,No,Private,DR136,2.8,No
+PAT5107,2024-06-05,General,Asthma,72,Male,4,1450,No,Private,DR109,3.6,No
+PAT5108,2024-04-26,Emergency,Asthma,63,Female,1,1400,No,Private,DR119,2.4,No
+PAT5109,2024-04-24,Orthopedics,Pneumonia,47,Female,1,1980,No,Private,DR129,2.4,No
+PAT5110,2024-01-13,Emergency,Fracture,26,Female,8,4260,No,Government,DR132,4.8,No
+PAT5111,2024-12-03,Cardiology,Hypertension,57,Female,7,540,No,Private,DR108,4.4,No
+PAT5112,2024-04-08,General,UTI,37,Male,2,500,No,Government,DR102,2.5,No
+PAT5113,2024-07-23,Emergency,UTI,7,Male,2,1130,No,NGO,DR139,3.2,No
+PAT5114,2024-06-17,General,UTI,40,Female,3,500,No,Self-Pay,DR116,3.1,Yes
+PAT5115,2024-05-22,General,Hypertension,39,Female,1,1290,Yes,Private,DR111,4.4,Yes
+PAT5116,2024-02-05,Cardiology,Fracture,62,Male,1,2700,No,Government,DR120,3.5,No
+PAT5117,2024-05-22,Orthopedics,UTI,78,Male,1,890,Yes,Government,DR136,2.4,Yes
+PAT5118,2024-06-28,Emergency,Migraine,53,Female,1,580,No,Government,DR101,4.2,Yes
+PAT5119,2024-11-24,General,Hypertension,4,Female,7,1910,No,Private,DR136,3.2,No
+PAT5120,2024-09-17,Orthopedics,Hypertension,82,Female,1,3600,No,Government,DR127,2.8,Yes
+PAT5121,2024-07-23,Orthopedics,Appendicitis,25,Male,1,500,No,Private,DR106,3.1,No
+PAT5122,2024-12-13,ICU,Appendicitis,7,Female,3,3480,No,Government,DR115,3.5,No
+PAT5123,2024-10-01,General,Diabetes Type 2,28,Female,9,3480,No,NGO,DR108,3.0,No
+PAT5124,2024-06-18,General,Migraine,69,Female,1,3880,No,Government,DR130,2.7,Yes
+PAT5125,2024-01-15,General,Migraine,67,Female,1,4790,No,NGO,DR108,3.2,Yes
+PAT5126,2024-02-29,Emergency,Diabetes Type 2,20,Female,2,10530,No,Self-Pay,DR110,2.1,No
+PAT5127,2024-05-13,Cardiology,Migraine,83,Male,6,1360,No,Private,DR132,4.3,Yes
+PAT5128,2024-04-01,Cardiology,Cardiac Arrest,11,Female,4,1970,No,Private,DR119,2.5,Yes
+PAT5129,2024-10-24,Emergency,COVID-19,67,Male,8,1300,No,Private,DR133,2.1,Yes
+PAT5130,2024-05-15,General,UTI,87,Female,14,1810,No,Private,DR118,4.0,Yes
+PAT5131,2024-01-20,Orthopedics,Appendicitis,7,Female,7,6160,No,Government,DR127,4.3,Yes
+PAT5132,2024-02-25,General,Diabetes Type 2,23,Female,4,620,Yes,Government,DR131,4.4,No
+PAT5133,2024-11-01,Emergency,Diabetes Type 2,61,Male,3,910,No,Private,DR131,3.5,Yes
+PAT5134,2024-08-10,General,Migraine,71,Male,1,5440,No,Private,DR116,2.6,Yes
+PAT5135,2024-06-25,Emergency,Hypertension,34,Male,19,4090,No,Private,DR130,4.2,No
+PAT5136,2024-06-09,General,Asthma,19,Female,2,1350,No,Government,DR136,4.1,No
+PAT5137,2024-08-11,General,Pneumonia,58,Female,1,3580,No,Government,DR110,2.7,Yes
+PAT5138,2024-11-06,Orthopedics,Pneumonia,9,Male,5,2380,No,Government,DR125,4.7,Yes
+PAT5139,2024-09-18,General,Diabetes Type 2,48,Male,2,6000,No,Government,DR113,2.3,No
+PAT5140,2024-02-29,Cardiology,UTI,82,Female,4,1920,No,Government,DR139,4.9,No
+PAT5141,2024-07-16,General,Cardiac Arrest,41,Male,4,4110,Yes,Government,DR133,4.6,No
+PAT5142,2024-10-22,Orthopedics,UTI,48,Female,3,14970,No,Government,DR109,4.1,No
+PAT5143,2024-04-07,General,Diabetes Type 2,45,Male,8,2920,No,Self-Pay,DR105,4.8,Yes
+PAT5144,2024-05-10,ICU,UTI,25,Male,1,1880,No,Government,DR118,4.2,No
+PAT5145,2024-01-23,General,Appendicitis,78,Male,3,3220,No,Private,DR127,2.6,Yes
+PAT5146,2024-12-28,Pediatrics,UTI,25,Female,3,1350,No,Government,DR122,3.3,No
+PAT5147,2024-08-11,General,Migraine,19,Female,5,12210,No,Self-Pay,DR133,2.2,No
+PAT5148,2024-01-01,General,Migraine,39,Male,7,2090,No,Private,DR118,3.2,No
+PAT5149,2024-09-23,General,Cardiac Arrest,79,Female,2,1450,Yes,Government,DR101,4.2,Yes
+PAT5150,2024-10-02,ICU,Appendicitis,80,Female,5,930,No,Private,DR119,3.2,Yes
+PAT5151,2024-12-17,Cardiology,Asthma,27,Female,1,4350,No,Private,DR120,3.0,No
+PAT5152,2024-12-09,Emergency,Hypertension,74,Female,12,3620,Yes,Private,DR138,3.8,No
+PAT5153,2024-04-10,General,Appendicitis,63,Male,2,1210,No,Government,DR138,4.6,No
+PAT5154,2024-07-05,Cardiology,Fracture,68,Female,6,2870,No,NGO,DR132,2.1,Yes
+PAT5155,2024-08-08,Cardiology,COVID-19,19,Female,1,540,No,Private,DR110,3.2,Yes
+PAT5156,2024-02-05,General,Diabetes Type 2,28,Male,1,2100,No,Government,DR129,2.5,No
+PAT5157,2024-12-06,Cardiology,Fracture,85,Female,3,2600,No,Private,DR135,4.1,Yes
+PAT5158,2024-06-18,General,Cardiac Arrest,78,Female,9,7090,Yes,Government,DR131,2.3,No
+PAT5159,2024-11-15,Pediatrics,Fracture,33,Female,3,980,No,Self-Pay,DR123,4.0,No
+PAT5160,2024-06-09,ICU,Migraine,10,Male,12,650,No,Private,DR122,2.9,No
+PAT5161,2024-12-05,Cardiology,UTI,83,Male,3,880,No,Private,DR136,2.6,No
+PAT5162,2024-03-04,Cardiology,Hypertension,30,Female,3,620,No,Government,DR135,4.8,No
+PAT5163,2024-06-02,ICU,Pneumonia,22,Female,1,5270,Yes,Self-Pay,DR125,2.1,Yes
+PAT5164,2024-09-16,General,Diabetes Type 2,3,Male,7,6240,No,Private,DR130,3.3,No
+PAT5165,2024-06-07,Emergency,Pneumonia,82,Male,1,2340,No,Government,DR121,2.1,Yes
+PAT5166,2024-12-07,General,UTI,75,Male,10,4800,No,Government,DR113,3.5,No
+PAT5167,2024-07-28,Pediatrics,Migraine,48,Female,11,2010,No,Government,DR116,3.5,Yes
+PAT5168,2024-06-16,Emergency,Migraine,2,Female,13,1680,No,NGO,DR137,3.0,No
+PAT5169,2024-07-25,Cardiology,UTI,76,Male,3,1390,No,Government,DR125,2.4,Yes
+PAT5170,2024-12-22,Cardiology,Diabetes Type 2,54,Female,5,1410,No,Private,DR115,3.1,Yes
+PAT5171,2024-05-31,Orthopedics,Pneumonia,6,Female,7,520,No,Government,DR127,4.0,No
+PAT5172,2024-10-10,Emergency,Appendicitis,40,Female,1,2230,No,Private,DR103,4.3,Yes
+PAT5173,2024-03-06,Pediatrics,Migraine,2,Female,4,1750,No,Private,DR121,3.6,No
+PAT5174,2024-04-08,Pediatrics,Pneumonia,73,Female,1,3280,Yes,NGO,DR131,3.8,No
+PAT5175,2024-08-03,General,Asthma,2,Female,3,1950,No,Private,DR125,2.6,Yes
+PAT5176,2024-12-06,Emergency,Pneumonia,74,Female,1,1590,No,Self-Pay,DR125,2.9,No
+PAT5177,2024-07-13,Cardiology,Asthma,55,Male,1,900,Yes,Private,DR110,2.5,Yes
+PAT5178,2024-12-12,ICU,Asthma,72,Male,2,1920,No,Government,DR132,2.7,Yes
+PAT5179,2024-03-30,Emergency,Migraine,60,Male,3,3260,No,Government,DR103,2.7,No
+PAT5180,2024-11-11,Pediatrics,Diabetes Type 2,6,Male,4,720,No,Private,DR109,3.6,No
+PAT5181,2024-10-18,ICU,Cardiac Arrest,19,Male,1,1940,No,NGO,DR133,3.7,Yes
+PAT5182,2024-06-03,Pediatrics,Migraine,27,Male,3,2180,No,Self-Pay,DR138,4.8,No
+PAT5183,2024-07-26,General,Diabetes Type 2,1,Male,1,1020,No,Government,DR122,2.6,No
+PAT5184,2024-10-07,Emergency,Diabetes Type 2,33,Male,4,1130,No,Government,DR107,3.9,No
+PAT5185,2024-01-01,General,Fracture,40,Male,5,2170,No,Government,DR129,4.5,Yes
+PAT5186,2024-06-04,Orthopedics,UTI,32,Female,4,730,No,Self-Pay,DR107,3.7,No
+PAT5187,2024-05-26,Pediatrics,UTI,69,Female,6,2390,No,Self-Pay,DR134,2.8,No
+PAT5188,2024-04-17,ICU,UTI,17,Male,2,880,No,Private,DR130,2.8,No
+PAT5189,2024-08-08,Emergency,COVID-19,8,Female,7,4230,No,Private,DR101,2.1,No
+PAT5190,2024-10-23,Pediatrics,Migraine,57,Female,3,11730,No,Private,DR110,2.9,No
+PAT5191,2024-11-06,General,Diabetes Type 2,42,Male,3,910,No,Private,DR127,4.2,Yes
+PAT5192,2024-12-01,Pediatrics,Fracture,9,Male,5,2770,No,Government,DR110,2.1,No
+PAT5193,2024-06-13,Emergency,Asthma,87,Male,1,1010,No,Private,DR105,2.7,No
+PAT5194,2024-08-26,General,Cardiac Arrest,35,Female,5,4160,No,Government,DR131,4.1,Yes
+PAT5195,2024-08-14,General,Cardiac Arrest,71,Female,4,660,Yes,Government,DR117,4.3,No
+PAT5196,2024-08-14,General,Asthma,79,Male,2,2660,No,Self-Pay,DR122,3.4,No
+PAT5197,2024-12-11,General,Pneumonia,53,Female,1,900,No,Private,DR140,4.1,No
+PAT5198,2024-04-19,Orthopedics,Pneumonia,54,Female,1,1530,No,Private,DR126,3.2,No
+PAT5199,2024-09-18,Pediatrics,UTI,84,Female,12,790,No,Private,DR106,2.5,Yes
+PAT5200,2024-08-30,General,Migraine,25,Male,5,3490,No,Government,DR122,3.2,No
+PAT5201,2024-03-27,General,COVID-19,67,Female,1,930,No,Private,DR135,3.7,No
+PAT5202,2024-12-03,General,Fracture,62,Female,2,2810,Yes,Self-Pay,DR125,4.8,No
+PAT5203,2024-02-13,Emergency,Cardiac Arrest,55,Female,4,1370,No,Private,DR121,2.2,No
+PAT5204,2024-05-25,General,UTI,46,Female,8,1650,No,Private,DR132,3.5,No
+PAT5205,2024-09-20,Emergency,Hypertension,24,Female,1,2030,No,Government,DR135,3.0,No
+PAT5206,2024-12-05,Pediatrics,UTI,46,Female,1,980,Yes,Government,DR103,3.5,No
+PAT5207,2024-11-20,General,Hypertension,22,Female,10,2140,No,Private,DR140,2.1,No
+PAT5208,2024-11-13,Emergency,Appendicitis,11,Male,1,6150,No,Government,DR105,2.9,No
+PAT5209,2024-06-20,Pediatrics,Diabetes Type 2,48,Male,1,970,No,Private,DR116,4.5,No
+PAT5210,2024-02-17,Cardiology,Asthma,8,Female,14,4620,No,Government,DR119,3.7,Yes
+PAT5211,2024-04-30,Emergency,Diabetes Type 2,39,Male,4,5990,No,Government,DR115,3.4,Yes
+PAT5212,2024-12-10,ICU,UTI,35,Female,1,940,Yes,Private,DR106,2.9,No
+PAT5213,2024-06-07,ICU,Diabetes Type 2,49,Female,1,560,No,NGO,DR128,2.9,Yes
+PAT5214,2024-04-25,Orthopedics,Fracture,46,Female,1,2300,No,Government,DR107,3.1,No
+PAT5215,2024-04-11,General,Appendicitis,38,Male,1,1170,No,Private,DR107,4.5,Yes
+PAT5216,2024-03-16,General,COVID-19,8,Female,10,8060,No,Private,DR129,4.9,No
+PAT5217,2024-01-13,ICU,Appendicitis,54,Female,2,1860,No,Government,DR111,3.3,Yes
+PAT5218,2024-01-24,ICU,Cardiac Arrest,37,Male,6,950,No,Private,DR120,3.2,Yes
+PAT5219,2024-05-05,Orthopedics,Fracture,40,Male,11,720,No,Private,DR102,4.5,No
+PAT5220,2024-08-31,General,Diabetes Type 2,34,Female,2,4320,No,Private,DR103,3.3,No
+PAT5221,2024-11-08,Pediatrics,COVID-19,79,Male,1,1140,No,Self-Pay,DR121,3.7,No
+PAT5222,2024-02-07,Cardiology,Diabetes Type 2,17,Male,3,1870,No,Government,DR104,2.7,No
+PAT5223,2024-08-21,General,Migraine,33,Female,11,3880,No,Government,DR119,4.2,No
+PAT5224,2024-07-31,ICU,Migraine,47,Female,7,1230,No,NGO,DR123,3.6,Yes
+PAT5225,2024-11-18,Orthopedics,Pneumonia,52,Female,1,1740,No,Government,DR124,4.4,No
+PAT5226,2024-10-21,ICU,Appendicitis,80,Male,5,1780,No,Private,DR128,4.3,No
+PAT5227,2024-04-09,Orthopedics,COVID-19,9,Male,4,3120,No,Self-Pay,DR110,2.6,No
+PAT5228,2024-12-22,Emergency,Migraine,33,Male,11,2900,No,Government,DR116,4.1,Yes
+PAT5229,2024-07-15,General,Pneumonia,60,Female,1,1520,No,Private,DR134,4.4,No
+PAT5230,2024-09-10,Pediatrics,Fracture,77,Male,3,1900,No,Government,DR127,3.0,Yes
+PAT5231,2024-07-23,Pediatrics,COVID-19,21,Male,10,1340,No,Government,DR137,2.5,No
+PAT5232,2024-05-04,General,Pneumonia,58,Female,2,550,Yes,Government,DR112,2.0,No
+PAT5233,2024-03-16,Emergency,Asthma,85,Female,3,2220,No,Self-Pay,DR111,3.4,Yes
+PAT5234,2024-12-01,Emergency,COVID-19,69,Female,1,8220,No,Government,DR112,3.1,No
+PAT5235,2024-12-18,General,UTI,10,Male,1,890,No,Private,DR106,3.7,Yes
+PAT5236,2024-01-03,Cardiology,Pneumonia,6,Female,2,970,No,NGO,DR140,2.6,No
+PAT5237,2024-02-24,Emergency,Diabetes Type 2,13,Male,13,900,No,Private,DR125,4.6,Yes
+PAT5238,2024-08-05,Emergency,UTI,65,Male,1,3230,No,Private,DR140,2.8,No
+PAT5239,2024-04-22,Pediatrics,Asthma,20,Female,3,2590,No,Private,DR116,2.7,Yes
+PAT5240,2024-03-31,Pediatrics,Migraine,57,Female,5,1590,No,Government,DR132,3.4,No
+PAT5241,2024-12-22,General,Hypertension,46,Female,1,870,No,Private,DR138,3.5,No
+PAT5242,2024-09-22,Emergency,Pneumonia,8,Female,3,1950,No,Private,DR110,2.6,No
+PAT5243,2024-08-25,General,Fracture,10,Female,6,520,No,NGO,DR115,2.8,Yes
+PAT5244,2024-01-26,Cardiology,Pneumonia,73,Male,9,2030,No,NGO,DR130,2.5,No
+PAT5245,2024-10-12,General,Hypertension,67,Male,4,3630,No,Self-Pay,DR117,4.2,Yes
+PAT5246,2024-05-07,General,Asthma,11,Male,5,660,No,Self-Pay,DR130,4.3,No
+PAT5247,2024-03-03,General,Asthma,12,Female,1,530,No,Private,DR117,3.4,Yes
+PAT5248,2024-08-21,Emergency,UTI,10,Male,13,6400,No,Private,DR101,4.1,No
+PAT5249,2024-03-09,ICU,COVID-19,25,Female,1,1110,No,Self-Pay,DR130,4.2,Yes
+PAT5250,2024-08-25,Cardiology,Fracture,49,Female,7,4490,No,Private,DR119,2.4,Yes
+PAT5251,2024-12-07,ICU,UTI,49,Male,1,1600,Yes,NGO,DR135,4.9,Yes
+PAT5252,2024-09-28,General,Fracture,89,Male,12,1590,No,Private,DR111,4.5,No
+PAT5253,2024-10-13,General,Fracture,11,Female,6,2570,No,Private,DR105,2.6,Yes
+PAT5254,2024-10-31,Pediatrics,Hypertension,62,Male,6,890,No,Private,DR129,2.6,No
+PAT5255,2024-06-11,General,UTI,36,Female,1,2010,No,NGO,DR123,2.4,No
+PAT5256,2024-08-14,General,Fracture,39,Male,3,1330,No,Government,DR138,2.4,No
+PAT5257,2024-11-09,ICU,Cardiac Arrest,53,Male,4,630,Yes,Private,DR120,4.2,No
+PAT5258,2024-09-15,General,Hypertension,78,Male,7,2370,No,Private,DR128,3.4,Yes
+PAT5259,2024-08-06,Emergency,Asthma,56,Male,1,1460,No,Government,DR117,4.3,No
+PAT5260,2024-10-07,Emergency,Hypertension,1,Male,15,1590,No,Private,DR130,4.2,Yes
+PAT5261,2024-08-16,General,Diabetes Type 2,56,Female,10,690,No,Private,DR120,3.8,No
+PAT5262,2024-03-22,Cardiology,Diabetes Type 2,4,Male,1,6460,No,Private,DR113,4.1,Yes
+PAT5263,2024-08-31,Emergency,Fracture,30,Male,8,3650,No,Government,DR125,2.1,No
+PAT5264,2024-08-18,ICU,UTI,12,Male,3,3910,No,Private,DR131,2.9,No
+PAT5265,2024-05-12,Orthopedics,Asthma,35,Female,3,1420,No,Private,DR107,3.9,No
+PAT5266,2024-05-06,Emergency,Hypertension,77,Female,2,500,No,Private,DR116,2.0,Yes
+PAT5267,2024-11-22,ICU,UTI,52,Female,4,8620,No,Government,DR125,2.1,No
+PAT5268,2024-05-21,General,Hypertension,31,Female,6,1720,No,NGO,DR137,4.6,Yes
+PAT5269,2024-09-23,Emergency,Hypertension,87,Female,2,990,No,Private,DR123,4.1,No
+PAT5270,2024-09-05,Pediatrics,Cardiac Arrest,68,Male,4,2520,No,Private,DR137,2.8,No
+PAT5271,2024-11-16,ICU,Diabetes Type 2,52,Male,5,4600,No,Private,DR119,4.1,No
+PAT5272,2024-05-02,General,Hypertension,80,Male,6,1780,No,Government,DR119,4.4,No
+PAT5273,2024-05-20,General,Cardiac Arrest,7,Female,1,5030,No,Private,DR102,2.9,No
+PAT5274,2024-08-13,Cardiology,Diabetes Type 2,22,Female,9,4300,No,Private,DR126,2.1,No
+PAT5275,2024-02-09,Orthopedics,Cardiac Arrest,75,Male,3,760,Yes,Private,DR118,4.8,No
+PAT5276,2024-05-26,Emergency,UTI,56,Female,1,1050,No,Private,DR101,3.0,No
+PAT5277,2024-04-30,General,COVID-19,58,Female,1,3890,Yes,Private,DR137,2.3,No
+PAT5278,2024-05-19,Pediatrics,Diabetes Type 2,64,Female,3,500,No,Government,DR104,3.5,Yes
+PAT5279,2024-06-20,Pediatrics,Migraine,12,Male,10,1600,No,Private,DR139,4.3,No
+PAT5280,2024-06-12,General,COVID-19,7,Male,2,580,No,Government,DR132,2.7,No
+PAT5281,2024-10-03,General,UTI,55,Female,6,1230,No,Government,DR119,2.8,Yes
+PAT5282,2024-02-11,Emergency,Hypertension,62,Female,1,1420,Yes,NGO,DR115,2.7,No
+PAT5283,2024-03-11,Emergency,Asthma,73,Female,3,1360,No,Private,DR139,5.0,No
+PAT5284,2024-03-18,Pediatrics,UTI,77,Female,22,1160,No,Private,DR123,2.6,Yes
+PAT5285,2024-04-28,Cardiology,Cardiac Arrest,55,Male,7,750,No,Private,DR115,3.7,No
+PAT5286,2024-07-15,General,Cardiac Arrest,36,Female,1,11310,No,Self-Pay,DR113,4.8,No
+PAT5287,2024-12-21,Pediatrics,Cardiac Arrest,89,Male,3,8050,No,Private,DR140,2.4,No
+PAT5288,2024-03-19,Cardiology,Cardiac Arrest,24,Male,1,710,No,Private,DR117,4.9,No
+PAT5289,2024-12-27,Pediatrics,UTI,44,Male,2,6410,No,Government,DR109,4.8,No
+PAT5290,2024-04-19,Emergency,Asthma,17,Female,7,1310,No,NGO,DR107,4.7,Yes
+PAT5291,2024-02-02,Cardiology,Pneumonia,2,Male,7,2000,No,Self-Pay,DR103,2.6,No
+PAT5292,2024-07-31,General,Cardiac Arrest,13,Male,1,1720,No,Self-Pay,DR120,3.9,No
+PAT5293,2024-07-27,Orthopedics,Pneumonia,31,Female,11,1070,No,Government,DR129,4.3,No
+PAT5294,2024-06-18,General,Asthma,28,Female,4,3970,No,Government,DR103,5.0,No
+PAT5295,2024-10-04,General,Asthma,60,Female,2,2000,No,Government,DR138,2.5,No
+PAT5296,2024-08-26,General,COVID-19,27,Male,3,1230,No,Government,DR124,4.3,No
+PAT5297,2024-07-31,General,Diabetes Type 2,15,Female,4,640,No,Self-Pay,DR109,3.0,No
+PAT5298,2024-02-01,Orthopedics,Migraine,79,Male,4,880,No,Government,DR106,2.5,No
+PAT5299,2024-04-15,Pediatrics,Fracture,33,Male,3,500,No,Government,DR119,3.3,No
+PAT5300,2024-08-03,Orthopedics,Migraine,20,Female,3,1830,No,Government,DR121,4.4,No
+PAT5301,2024-07-18,Cardiology,UTI,42,Male,1,690,Yes,Government,DR127,3.4,No
+PAT5302,2024-10-26,General,Fracture,12,Male,8,1460,No,Government,DR112,3.6,Yes
+PAT5303,2024-12-22,Orthopedics,Asthma,73,Male,4,5410,No,Self-Pay,DR113,5.0,No
+PAT5304,2024-01-11,General,Migraine,23,Male,1,4720,No,Private,DR109,3.2,No
+PAT5305,2024-10-21,General,Appendicitis,72,Female,7,1760,Yes,Government,DR135,3.8,No
+PAT5306,2024-07-13,Pediatrics,Diabetes Type 2,14,Male,12,1690,No,Private,DR124,3.1,No
+PAT5307,2024-09-01,General,Migraine,25,Female,13,8130,No,Private,DR134,3.2,No
+PAT5308,2024-01-04,ICU,Diabetes Type 2,77,Male,2,2740,No,Government,DR133,4.1,Yes
+PAT5309,2024-06-29,Cardiology,Pneumonia,85,Male,1,1390,No,Private,DR118,4.8,No
+PAT5310,2024-06-01,Pediatrics,UTI,31,Female,3,580,No,Private,DR111,3.6,No
+PAT5311,2024-07-18,General,Diabetes Type 2,54,Male,1,2480,No,Private,DR117,4.3,Yes
+PAT5312,2024-08-02,Emergency,Pneumonia,5,Male,12,3510,No,Private,DR131,2.3,Yes
+PAT5313,2024-10-02,Cardiology,Cardiac Arrest,13,Male,1,1090,No,Government,DR119,2.6,No
+PAT5314,2024-10-06,Emergency,Pneumonia,28,Male,1,2280,No,NGO,DR122,3.5,No
+PAT5315,2024-11-04,General,UTI,43,Male,2,1350,No,Self-Pay,DR108,2.1,No
+PAT5316,2024-04-22,Pediatrics,COVID-19,89,Male,2,1560,No,Self-Pay,DR130,2.8,No
+PAT5317,2024-09-06,Emergency,Cardiac Arrest,47,Female,7,500,Yes,Government,DR105,3.6,No
+PAT5318,2024-04-22,Cardiology,Asthma,71,Female,3,1510,No,NGO,DR110,2.0,No
+PAT5319,2024-05-19,Cardiology,Hypertension,38,Female,1,3930,No,Self-Pay,DR115,2.8,No
+PAT5320,2024-08-11,General,Pneumonia,67,Male,1,1090,No,Self-Pay,DR126,3.5,Yes
+PAT5321,2024-09-05,ICU,Pneumonia,62,Male,3,1890,No,Government,DR136,3.7,No
+PAT5322,2024-01-15,Pediatrics,Diabetes Type 2,39,Male,1,990,No,Private,DR124,4.8,No
+PAT5323,2024-07-18,General,Asthma,37,Female,4,2410,No,NGO,DR106,3.9,No
+PAT5324,2024-06-21,Emergency,Migraine,86,Male,4,1520,No,Private,DR126,3.2,No
+PAT5325,2024-12-08,General,Appendicitis,8,Female,6,850,No,Private,DR101,4.8,No
+PAT5326,2024-12-13,Emergency,Fracture,81,Male,12,5250,No,NGO,DR117,4.4,Yes
+PAT5327,2024-07-26,Emergency,Pneumonia,52,Male,11,3800,No,Private,DR135,2.6,Yes
+PAT5328,2024-03-25,General,Migraine,33,Male,13,1110,No,Private,DR108,2.4,Yes
+PAT5329,2024-08-27,General,Appendicitis,81,Female,1,2690,No,Private,DR130,4.0,Yes
+PAT5330,2024-03-06,Emergency,Fracture,42,Male,1,2780,No,NGO,DR124,3.7,No
+PAT5331,2024-11-14,Emergency,Hypertension,76,Female,2,3020,No,Government,DR117,4.4,Yes
+PAT5332,2024-09-30,General,Diabetes Type 2,27,Male,10,500,No,Private,DR138,4.2,Yes
+PAT5333,2024-01-14,General,Migraine,8,Male,16,4050,No,Private,DR125,3.9,No
+PAT5334,2024-07-20,Pediatrics,Diabetes Type 2,23,Female,9,1150,No,Self-Pay,DR124,5.0,No
+PAT5335,2024-10-30,Cardiology,Fracture,64,Male,1,1360,No,Private,DR107,3.6,Yes
+PAT5336,2024-10-15,General,COVID-19,20,Male,13,14920,No,Self-Pay,DR115,2.3,No
+PAT5337,2024-12-05,Orthopedics,Pneumonia,16,Male,2,2300,No,NGO,DR131,4.5,No
+PAT5338,2024-01-14,ICU,Cardiac Arrest,17,Male,1,1330,No,Government,DR102,2.8,Yes
+PAT5339,2024-02-12,ICU,Appendicitis,80,Female,3,500,Yes,Private,DR140,4.3,Yes
+PAT5340,2024-11-25,General,Asthma,19,Female,1,5500,No,Government,DR136,4.9,No
+PAT5341,2024-08-07,General,UTI,8,Male,4,620,No,Government,DR121,4.1,No
+PAT5342,2024-03-10,General,Pneumonia,38,Male,2,810,No,Private,DR140,3.8,No
+PAT5343,2024-08-24,Pediatrics,Cardiac Arrest,38,Female,3,1390,Yes,Self-Pay,DR115,3.4,Yes
+PAT5344,2024-04-03,General,UTI,53,Male,4,5610,Yes,Self-Pay,DR105,3.1,No
+PAT5345,2024-01-26,General,Migraine,31,Female,9,3360,No,Government,DR130,3.1,No
+PAT5346,2024-05-13,General,UTI,44,Male,5,1590,No,Government,DR120,3.9,Yes
+PAT5347,2024-07-13,Emergency,Hypertension,60,Female,3,2310,No,Private,DR127,4.3,No
+PAT5348,2024-06-16,General,Pneumonia,76,Female,8,1120,No,Private,DR108,4.0,No
+PAT5349,2024-04-18,General,Diabetes Type 2,17,Female,11,2020,No,Government,DR109,2.6,Yes
+PAT5350,2024-08-20,Cardiology,COVID-19,79,Female,1,1920,Yes,Self-Pay,DR103,3.5,No
+PAT5351,2024-06-16,Emergency,Asthma,73,Male,3,3920,No,Self-Pay,DR103,4.4,No
+PAT5352,2024-06-21,General,Diabetes Type 2,39,Male,2,3920,No,Private,DR120,3.4,Yes
+PAT5353,2024-07-13,Cardiology,Cardiac Arrest,42,Female,1,2680,No,Self-Pay,DR132,3.6,No
+PAT5354,2024-05-22,Cardiology,Pneumonia,48,Female,5,1350,No,Private,DR108,4.3,Yes
+PAT5355,2024-08-03,Cardiology,COVID-19,12,Female,9,3270,No,Private,DR107,4.0,No
+PAT5356,2024-05-09,ICU,UTI,89,Female,1,1680,No,Private,DR116,3.2,Yes
+PAT5357,2024-02-11,Cardiology,Pneumonia,18,Male,8,760,No,Government,DR135,4.7,Yes
+PAT5358,2024-08-28,ICU,UTI,79,Female,9,1310,Yes,Self-Pay,DR109,2.5,No
+PAT5359,2024-01-10,Cardiology,Migraine,6,Female,11,1930,No,Private,DR125,5.0,No
+PAT5360,2024-10-03,Orthopedics,Hypertension,43,Female,1,3740,No,Private,DR130,2.4,No
+PAT5361,2024-01-27,General,Fracture,35,Female,11,1560,No,Government,DR124,2.0,No
+PAT5362,2024-06-28,Orthopedics,Pneumonia,54,Female,2,690,No,Government,DR135,4.7,Yes
+PAT5363,2024-04-24,ICU,Cardiac Arrest,62,Female,4,1890,No,Government,DR127,2.7,No
+PAT5364,2024-11-28,Orthopedics,UTI,69,Female,1,1980,No,Private,DR138,4.2,No
+PAT5365,2024-02-05,Pediatrics,Diabetes Type 2,82,Male,1,2100,No,Private,DR110,4.4,Yes
+PAT5366,2024-11-29,General,Migraine,16,Female,6,3770,No,Government,DR127,4.6,No
+PAT5367,2024-01-21,General,Cardiac Arrest,8,Female,3,4090,No,Private,DR107,5.0,No
+PAT5368,2024-01-16,Emergency,Asthma,89,Female,1,1120,No,Private,DR132,2.9,No
+PAT5369,2024-05-06,ICU,Fracture,86,Male,1,1100,No,Private,DR140,4.1,No
+PAT5370,2024-04-12,General,Migraine,31,Male,5,790,No,Private,DR127,2.3,Yes
+PAT5371,2024-01-11,General,Hypertension,10,Male,1,3160,No,Self-Pay,DR118,3.2,No
+PAT5372,2024-11-14,Cardiology,Fracture,56,Female,7,5760,No,Private,DR103,4.5,No
+PAT5373,2024-03-19,Pediatrics,UTI,76,Female,1,1410,Yes,Private,DR124,3.1,No
+PAT5374,2024-05-02,General,Cardiac Arrest,70,Female,1,1490,No,Government,DR114,3.8,No
+PAT5375,2024-03-05,General,Asthma,20,Male,2,5850,No,Government,DR129,3.5,No
+PAT5376,2024-08-30,General,Appendicitis,5,Female,3,2710,No,Government,DR129,3.9,No
+PAT5377,2024-12-08,General,Hypertension,23,Male,2,2560,No,Private,DR116,4.9,No
+PAT5378,2024-02-28,General,COVID-19,9,Male,2,700,No,Government,DR124,2.2,No
+PAT5379,2024-10-15,Cardiology,UTI,58,Male,15,3110,No,Government,DR107,3.7,No
+PAT5380,2024-04-21,General,Appendicitis,59,Male,5,860,No,Private,DR124,4.6,No
+PAT5381,2024-08-26,General,Pneumonia,80,Male,1,730,No,Government,DR135,3.4,No
+PAT5382,2024-12-24,General,Asthma,54,Female,3,1370,No,Government,DR123,2.2,Yes
+PAT5383,2024-05-11,Emergency,Diabetes Type 2,46,Female,9,1130,No,Government,DR104,3.7,No
+PAT5384,2024-07-07,Emergency,COVID-19,22,Male,2,1510,No,Private,DR126,3.0,Yes
+PAT5385,2024-03-26,Orthopedics,Cardiac Arrest,64,Female,1,570,No,Government,DR118,2.5,No
+PAT5386,2024-11-06,General,Asthma,8,Female,6,3890,No,Private,DR113,4.5,No
+PAT5387,2024-11-06,ICU,Fracture,20,Male,4,4460,No,Private,DR108,3.6,No
+PAT5388,2024-02-28,General,Migraine,51,Male,4,500,Yes,Private,DR130,4.8,No
+PAT5389,2024-03-24,General,Fracture,78,Female,1,3960,No,Private,DR106,4.4,No
+PAT5390,2024-06-08,Pediatrics,Fracture,39,Female,1,950,No,Self-Pay,DR114,4.1,Yes
+PAT5391,2024-02-25,Orthopedics,Pneumonia,37,Female,4,3590,No,Government,DR139,2.0,No
+PAT5392,2024-10-23,Emergency,Hypertension,50,Female,1,1710,No,Government,DR102,3.3,No
+PAT5393,2024-01-14,Orthopedics,Diabetes Type 2,34,Male,3,1850,No,Government,DR104,2.6,No
+PAT5394,2024-06-08,General,COVID-19,75,Female,4,1560,No,Government,DR122,4.7,No
+PAT5395,2024-10-21,Cardiology,Hypertension,33,Male,2,4770,No,Government,DR116,2.5,No
+PAT5396,2024-12-12,General,Asthma,31,Male,13,670,No,Government,DR109,2.9,No
+PAT5397,2024-07-11,ICU,Fracture,54,Female,8,2940,No,Private,DR137,3.6,No
+PAT5398,2024-07-22,Cardiology,Pneumonia,44,Female,6,4360,No,Private,DR114,2.8,No
+PAT5399,2024-04-11,ICU,Asthma,34,Female,1,3210,No,Private,DR105,2.6,Yes
+PAT5400,2024-02-08,General,Migraine,71,Male,1,11610,Yes,Private,DR136,3.8,No
+PAT5401,2024-10-30,General,Diabetes Type 2,62,Male,3,1180,No,Government,DR114,2.3,No
+PAT5402,2024-12-19,Cardiology,COVID-19,23,Male,1,3890,No,Government,DR138,2.2,Yes
+PAT5403,2024-11-17,Orthopedics,Migraine,46,Male,17,1660,No,Private,DR114,3.1,Yes
+PAT5404,2024-05-04,General,Pneumonia,56,Female,1,4850,No,Government,DR115,4.2,No
+PAT5405,2024-02-22,Orthopedics,Diabetes Type 2,7,Male,3,1800,No,Government,DR122,3.7,No
+PAT5406,2024-12-22,General,Asthma,89,Male,2,1330,Yes,Private,DR110,3.3,Yes
+PAT5407,2024-06-03,General,Fracture,61,Female,5,5140,No,NGO,DR139,3.7,No
+PAT5408,2024-12-16,Orthopedics,Fracture,3,Male,1,1220,No,Private,DR101,3.1,No
+PAT5409,2024-11-03,Cardiology,UTI,38,Male,3,580,No,Government,DR118,4.8,Yes
+PAT5410,2024-03-02,Emergency,Fracture,84,Female,1,1200,No,Self-Pay,DR110,2.2,Yes
+PAT5411,2024-10-16,General,Appendicitis,34,Male,10,2970,No,Private,DR109,4.0,No
+PAT5412,2024-01-22,Cardiology,Fracture,44,Male,1,5510,No,Private,DR135,4.7,Yes
+PAT5413,2024-06-26,Cardiology,Appendicitis,30,Male,11,1980,Yes,Self-Pay,DR117,4.4,No
+PAT5414,2024-09-29,Emergency,Cardiac Arrest,17,Male,8,5190,No,Private,DR112,2.6,No
+PAT5415,2024-08-07,General,Appendicitis,59,Female,2,610,No,Government,DR108,2.9,Yes
+PAT5416,2024-12-04,Orthopedics,Diabetes Type 2,10,Male,7,1270,No,Private,DR102,4.2,Yes
+PAT5417,2024-07-08,Pediatrics,Migraine,84,Female,1,1440,No,Private,DR109,2.3,Yes
+PAT5418,2024-02-05,General,Diabetes Type 2,18,Male,15,1650,No,Private,DR101,4.4,Yes
+PAT5419,2024-09-16,Pediatrics,Migraine,45,Female,3,1930,Yes,Private,DR123,4.2,Yes
+PAT5420,2024-11-27,General,UTI,59,Female,2,3140,No,NGO,DR116,4.2,No
+PAT5421,2024-06-23,Cardiology,Cardiac Arrest,62,Female,2,1270,No,Self-Pay,DR138,2.3,Yes
+PAT5422,2024-01-07,Emergency,Migraine,59,Male,1,2020,No,Self-Pay,DR121,4.2,No
+PAT5423,2024-08-03,Pediatrics,Migraine,49,Male,20,1740,No,Self-Pay,DR102,4.0,No
+PAT5424,2024-09-07,Cardiology,Pneumonia,63,Male,1,860,No,NGO,DR112,4.5,Yes
+PAT5425,2024-02-24,Pediatrics,Hypertension,87,Female,5,1650,No,Government,DR117,2.1,Yes
+PAT5426,2024-08-09,ICU,Hypertension,32,Male,3,1610,No,Government,DR104,2.1,Yes
+PAT5427,2024-07-04,General,Pneumonia,10,Male,13,1580,No,Private,DR109,3.1,Yes
+PAT5428,2024-11-21,Pediatrics,Fracture,11,Male,1,1850,No,Self-Pay,DR127,2.4,No
+PAT5429,2024-08-23,General,Pneumonia,70,Male,3,1920,No,Private,DR134,3.7,Yes
+PAT5430,2024-12-28,General,Migraine,62,Female,3,1280,No,Private,DR108,4.8,No
+PAT5431,2024-03-19,Pediatrics,Migraine,47,Female,5,5000,No,Government,DR105,3.2,No
+PAT5432,2024-08-10,General,Pneumonia,34,Male,1,710,No,Government,DR131,4.5,No
+PAT5433,2024-03-31,General,Pneumonia,17,Male,1,1020,No,Private,DR129,2.0,No
+PAT5434,2024-09-24,Pediatrics,Fracture,54,Male,1,16710,Yes,Government,DR124,2.5,No
+PAT5435,2024-11-29,General,Diabetes Type 2,76,Female,6,790,No,Government,DR133,2.1,Yes
+PAT5436,2024-05-18,Emergency,Cardiac Arrest,85,Male,1,610,No,Government,DR138,3.0,Yes
+PAT5437,2024-11-11,Emergency,Asthma,40,Female,4,3250,No,Government,DR107,4.7,No
+PAT5438,2024-10-02,Cardiology,Migraine,19,Female,1,500,No,Private,DR129,2.3,Yes
+PAT5439,2024-09-04,General,Cardiac Arrest,67,Male,9,1500,No,Government,DR133,3.8,No
+PAT5440,2024-08-26,Orthopedics,Pneumonia,82,Male,13,10060,No,Private,DR115,3.4,No
+PAT5441,2024-08-11,Orthopedics,Fracture,53,Male,3,530,No,Government,DR140,4.8,No
+PAT5442,2024-10-30,Orthopedics,Appendicitis,64,Female,2,500,No,Self-Pay,DR103,2.4,No
+PAT5443,2024-05-17,General,Fracture,83,Female,1,540,No,Government,DR134,2.6,No
+PAT5444,2024-06-14,Cardiology,COVID-19,47,Male,1,3710,No,Private,DR120,2.1,No
+PAT5445,2024-05-05,Orthopedics,COVID-19,6,Female,1,4450,No,Private,DR130,3.3,No
+PAT5446,2024-02-14,Cardiology,Cardiac Arrest,16,Male,5,1200,No,Government,DR102,2.8,No
+PAT5447,2024-05-22,Cardiology,Hypertension,72,Male,3,3120,No,Self-Pay,DR104,4.6,No
+PAT5448,2024-08-18,Pediatrics,COVID-19,18,Female,13,5500,No,Private,DR131,3.8,No
+PAT5449,2024-05-04,Pediatrics,COVID-19,52,Female,2,7550,No,Private,DR126,3.8,No
+PAT5450,2024-08-25,ICU,Diabetes Type 2,48,Female,5,1480,No,Government,DR128,3.6,No
+PAT5451,2024-10-18,Cardiology,Appendicitis,43,Female,3,500,No,NGO,DR107,2.3,No
+PAT5452,2024-11-08,ICU,Diabetes Type 2,39,Male,3,940,No,Private,DR132,3.3,No
+PAT5453,2024-12-08,General,Appendicitis,49,Male,1,1290,No,Government,DR129,5.0,Yes
+PAT5454,2024-07-13,General,UTI,12,Male,3,1470,No,Government,DR105,4.5,No
+PAT5455,2024-06-21,Pediatrics,Asthma,10,Female,3,1560,No,Self-Pay,DR106,4.7,Yes
+PAT5456,2024-01-15,General,Migraine,71,Male,6,4430,No,Private,DR121,4.5,No
+PAT5457,2024-09-10,Cardiology,COVID-19,55,Female,13,5010,No,Private,DR139,2.3,No
+PAT5458,2024-06-15,Orthopedics,Migraine,1,Female,2,1580,No,Private,DR110,2.7,No
+PAT5459,2024-04-03,General,COVID-19,49,Female,1,4350,No,Private,DR105,2.0,Yes
+PAT5460,2024-09-06,General,Diabetes Type 2,36,Male,3,2410,No,Private,DR109,2.9,No
+PAT5461,2024-04-18,General,Asthma,21,Female,4,1900,No,Government,DR118,2.3,No
+PAT5462,2024-06-30,Emergency,Diabetes Type 2,37,Female,1,3730,No,Private,DR140,3.4,Yes
+PAT5463,2024-05-12,Pediatrics,Diabetes Type 2,24,Female,6,1920,Yes,NGO,DR138,4.0,Yes
+PAT5464,2024-06-23,Pediatrics,Appendicitis,55,Female,19,9380,Yes,Government,DR136,4.6,No
+PAT5465,2024-05-23,General,Hypertension,25,Female,13,570,No,Private,DR121,4.2,No
+PAT5466,2024-11-01,Cardiology,Fracture,7,Female,1,1200,No,Private,DR125,4.8,Yes
+PAT5467,2024-12-25,Emergency,Cardiac Arrest,81,Female,9,1630,No,Private,DR139,2.2,No
+PAT5468,2024-05-21,Orthopedics,Migraine,71,Female,5,2570,No,Self-Pay,DR134,2.0,No
+PAT5469,2024-10-11,Cardiology,UTI,71,Female,3,4990,Yes,Private,DR119,4.0,No
+PAT5470,2024-01-06,ICU,COVID-19,24,Female,4,1770,No,Government,DR130,2.9,No
+PAT5471,2024-09-21,General,Diabetes Type 2,11,Female,9,580,No,NGO,DR133,2.8,No
+PAT5472,2024-04-07,ICU,Hypertension,73,Female,3,3550,No,Private,DR139,3.0,No
+PAT5473,2024-02-13,General,Diabetes Type 2,12,Male,2,3310,Yes,Self-Pay,DR128,2.8,No
+PAT5474,2024-05-03,General,Asthma,35,Male,3,500,No,Private,DR107,3.5,Yes
+PAT5475,2024-07-27,General,Appendicitis,63,Female,4,1800,Yes,Self-Pay,DR108,3.3,Yes
+PAT5476,2024-09-07,General,UTI,68,Female,1,510,No,Government,DR136,3.5,No
+PAT5477,2024-10-11,Emergency,Fracture,57,Female,10,1060,No,Government,DR114,4.0,No
+PAT5478,2024-05-03,Cardiology,Asthma,13,Male,5,880,No,Self-Pay,DR128,3.2,No
+PAT5479,2024-12-19,Orthopedics,Pneumonia,23,Male,5,3450,No,Government,DR129,2.8,No
+PAT5480,2024-08-31,Cardiology,UTI,83,Male,1,1990,No,Government,DR115,2.5,No
+PAT5481,2024-11-26,General,Diabetes Type 2,39,Female,4,650,No,Self-Pay,DR127,3.0,No
+PAT5482,2024-12-30,Orthopedics,Asthma,88,Female,1,3660,No,Self-Pay,DR122,4.2,Yes
+PAT5483,2024-09-08,General,Fracture,80,Female,1,570,No,Government,DR130,4.3,No
+PAT5484,2024-08-17,Cardiology,Hypertension,12,Female,3,2350,No,Self-Pay,DR126,4.0,Yes
+PAT5485,2024-01-09,General,Hypertension,34,Male,2,940,No,Private,DR127,2.7,No
+PAT5486,2024-02-17,Emergency,Migraine,71,Female,4,1350,Yes,Private,DR107,3.8,Yes
+PAT5487,2024-05-30,General,Fracture,75,Male,1,2710,No,Self-Pay,DR121,3.7,No
+PAT5488,2024-04-23,General,Hypertension,31,Male,3,2740,No,Private,DR128,3.5,Yes
+PAT5489,2024-07-26,Emergency,Asthma,62,Female,1,5270,No,Government,DR121,3.6,Yes
+PAT5490,2024-12-20,ICU,Migraine,13,Male,20,1690,No,Government,DR117,3.5,Yes
+PAT5491,2024-05-04,Cardiology,Hypertension,31,Male,4,2310,No,Private,DR124,3.7,No
+PAT5492,2024-06-05,Orthopedics,UTI,2,Male,5,1270,No,Private,DR110,4.1,No
+PAT5493,2024-12-05,Orthopedics,Appendicitis,15,Male,2,2090,No,Self-Pay,DR131,2.3,No
+PAT5494,2024-10-24,Emergency,Pneumonia,57,Female,1,2570,No,Self-Pay,DR105,4.2,No
+PAT5495,2024-07-07,Emergency,Fracture,75,Female,17,1670,No,Private,DR106,2.4,No
+PAT5496,2024-08-30,ICU,Asthma,34,Male,2,500,No,Self-Pay,DR106,2.2,No
+PAT5497,2024-10-10,Orthopedics,COVID-19,68,Female,2,2360,No,Government,DR106,4.9,No
+PAT5498,2024-09-28,Cardiology,Diabetes Type 2,75,Male,5,2420,No,Government,DR128,4.9,Yes
+PAT5499,2024-06-25,Cardiology,Asthma,29,Female,1,1050,No,Self-Pay,DR107,2.2,No
+PAT5500,2024-08-05,General,Hypertension,66,Female,7,650,No,Government,DR124,3.3,No
+PAT5501,2024-10-08,Cardiology,Asthma,16,Female,3,5890,No,Government,DR109,2.6,No
+PAT5502,2024-06-18,Emergency,COVID-19,39,Female,1,2680,No,Private,DR136,3.5,No
+PAT5503,2024-06-29,Emergency,Diabetes Type 2,77,Female,1,1510,No,Private,DR104,4.5,No
+PAT5504,2024-12-25,General,Migraine,37,Male,1,730,No,Self-Pay,DR138,4.9,Yes
+PAT5505,2024-08-20,ICU,Hypertension,81,Female,10,940,No,Government,DR136,3.9,No
+PAT5506,2024-05-18,General,Cardiac Arrest,21,Male,5,5130,No,Government,DR136,3.1,No
+PAT5507,2024-06-05,Orthopedics,Hypertension,44,Male,1,2020,No,Government,DR122,3.8,No
+PAT5508,2024-05-08,Cardiology,Pneumonia,19,Female,1,1160,No,Private,DR108,2.9,No
+PAT5509,2024-04-28,Pediatrics,Cardiac Arrest,71,Male,5,2720,No,Government,DR127,4.7,No
+PAT5510,2024-03-02,ICU,Pneumonia,8,Female,4,940,No,Private,DR123,4.6,No
+PAT5511,2024-04-08,General,COVID-19,77,Male,2,6010,No,Self-Pay,DR128,3.7,Yes
+PAT5512,2024-06-10,Pediatrics,Fracture,66,Male,2,5340,No,Self-Pay,DR104,3.0,Yes
+PAT5513,2024-03-02,Emergency,Diabetes Type 2,41,Female,1,1240,No,Government,DR119,2.9,No
+PAT5514,2024-10-01,Cardiology,Appendicitis,75,Female,5,1090,Yes,Private,DR139,2.1,No
+PAT5515,2024-12-19,General,Migraine,88,Female,16,500,No,Private,DR120,4.4,Yes
+PAT5516,2024-04-04,Pediatrics,Appendicitis,70,Female,1,550,No,NGO,DR123,3.4,No
+PAT5517,2024-04-08,ICU,UTI,61,Male,4,620,Yes,NGO,DR107,3.0,No
+PAT5518,2024-04-20,Emergency,UTI,26,Female,2,2010,No,Government,DR137,3.4,No
+PAT5519,2024-09-04,General,COVID-19,71,Male,3,1390,No,Private,DR133,4.5,Yes
+PAT5520,2024-05-21,Pediatrics,Fracture,83,Male,1,620,No,Government,DR114,2.4,No
+PAT5521,2024-10-28,General,UTI,70,Male,8,1440,No,Government,DR110,4.6,No
+PAT5522,2024-09-25,Cardiology,Hypertension,29,Male,3,2710,No,Government,DR131,4.7,No
+PAT5523,2024-11-01,Cardiology,Asthma,66,Male,4,2760,No,Private,DR115,4.8,No
+PAT5524,2024-05-24,Cardiology,Pneumonia,19,Male,2,500,No,Private,DR107,3.2,Yes
+PAT5525,2024-02-21,General,UTI,68,Female,1,1630,No,Government,DR123,2.7,No
+PAT5526,2024-04-09,General,COVID-19,58,Male,1,600,No,Private,DR136,3.1,Yes
+PAT5527,2024-05-31,General,Pneumonia,70,Male,6,3720,No,Government,DR124,3.0,Yes
+PAT5528,2024-04-26,Cardiology,Hypertension,57,Male,1,3390,No,Private,DR108,2.5,No
+PAT5529,2024-07-03,ICU,Fracture,37,Female,5,880,No,Government,DR118,3.8,No
+PAT5530,2024-04-01,Cardiology,Diabetes Type 2,61,Female,2,980,No,Government,DR137,3.4,No
+PAT5531,2024-06-03,Emergency,Appendicitis,30,Male,2,1250,No,Private,DR115,4.6,Yes
+PAT5532,2024-01-08,Emergency,Hypertension,71,Female,3,500,No,Government,DR128,2.1,No
+PAT5533,2024-12-28,General,Migraine,73,Male,2,2370,No,Private,DR136,3.9,No
+PAT5534,2024-09-30,Pediatrics,Cardiac Arrest,25,Female,1,1450,Yes,Government,DR140,4.3,No
+PAT5535,2024-03-05,ICU,COVID-19,65,Male,2,3930,No,Private,DR140,4.3,No
+PAT5536,2024-05-20,Cardiology,Appendicitis,6,Female,5,750,No,Government,DR136,4.7,No
+PAT5537,2024-01-24,Orthopedics,Migraine,18,Female,5,1100,No,Private,DR102,4.2,No
+PAT5538,2024-01-28,General,Diabetes Type 2,10,Female,2,540,No,Private,DR139,4.8,Yes
+PAT5539,2024-10-10,General,Migraine,11,Male,3,810,No,Government,DR118,3.0,Yes
+PAT5540,2024-05-29,Orthopedics,Fracture,65,Male,1,700,No,Private,DR102,3.5,No
+PAT5541,2024-12-23,Emergency,Cardiac Arrest,77,Male,1,4010,No,Government,DR112,2.0,No
+PAT5542,2024-03-05,General,Pneumonia,84,Female,1,1030,No,Private,DR118,2.0,No
+PAT5543,2024-11-22,Pediatrics,Appendicitis,65,Female,10,2000,No,Government,DR120,2.7,No
+PAT5544,2024-09-08,General,Cardiac Arrest,52,Male,1,1330,No,Private,DR122,2.3,Yes
+PAT5545,2024-02-22,General,Asthma,67,Female,1,650,No,Private,DR123,2.8,Yes
+PAT5546,2024-01-07,Emergency,Hypertension,82,Male,1,1580,Yes,Self-Pay,DR101,2.5,No
+PAT5547,2024-10-20,Orthopedics,Asthma,78,Male,1,2920,No,Private,DR112,2.1,Yes
+PAT5548,2024-05-25,Orthopedics,Hypertension,31,Male,5,690,No,Private,DR110,4.7,No
+PAT5549,2024-08-28,ICU,Fracture,17,Male,1,3450,Yes,Private,DR137,2.0,No
+PAT5550,2024-09-02,Orthopedics,Cardiac Arrest,55,Female,1,920,No,NGO,DR126,4.2,No
+PAT5551,2024-08-13,General,Diabetes Type 2,36,Female,5,1230,No,Private,DR105,2.5,No
+PAT5552,2024-06-23,General,UTI,26,Female,2,2760,No,Government,DR110,4.7,No
+PAT5553,2024-04-04,Pediatrics,Migraine,53,Male,6,1060,No,Self-Pay,DR102,4.7,No
+PAT5554,2024-01-27,ICU,UTI,17,Female,4,1860,No,Private,DR106,4.0,Yes
+PAT5555,2024-05-09,Orthopedics,Cardiac Arrest,86,Male,1,1410,No,Self-Pay,DR134,4.0,No
+PAT5556,2024-09-01,Cardiology,Asthma,25,Male,5,2010,No,Self-Pay,DR114,2.0,No
+PAT5557,2024-02-28,General,UTI,2,Male,1,500,No,Government,DR125,5.0,No
+PAT5558,2024-02-03,General,COVID-19,86,Male,3,500,No,Private,DR127,4.6,Yes
+PAT5559,2024-07-24,General,UTI,5,Male,3,2960,No,Government,DR130,4.7,No
+PAT5560,2024-09-08,ICU,Hypertension,4,Male,1,4150,No,Government,DR122,4.0,No
+PAT5561,2024-02-07,Cardiology,COVID-19,36,Female,4,870,Yes,Government,DR111,3.0,No
+PAT5562,2024-10-22,Orthopedics,Appendicitis,6,Female,9,1490,No,Private,DR124,4.7,No
+PAT5563,2024-11-18,ICU,UTI,21,Female,30,2290,No,Government,DR120,2.9,No
+PAT5564,2024-12-17,ICU,COVID-19,77,Female,4,3150,No,Government,DR121,3.7,No
+PAT5565,2024-01-28,Cardiology,Cardiac Arrest,89,Male,2,500,Yes,Private,DR137,2.3,Yes
+PAT5566,2024-03-18,Orthopedics,Migraine,26,Male,1,890,No,Government,DR139,4.8,No
+PAT5567,2024-03-17,General,Appendicitis,55,Female,1,1390,No,Government,DR106,2.4,No
+PAT5568,2024-10-15,General,Diabetes Type 2,39,Female,3,3170,No,Government,DR104,2.7,No
+PAT5569,2024-06-04,Cardiology,Diabetes Type 2,84,Female,2,13340,No,Government,DR110,3.7,No
+PAT5570,2024-02-13,General,Fracture,33,Female,11,1510,Yes,Private,DR111,4.3,Yes
+PAT5571,2024-05-07,ICU,UTI,14,Female,2,590,No,Government,DR140,3.9,Yes
+PAT5572,2024-03-01,Orthopedics,Migraine,56,Female,2,2490,No,NGO,DR104,2.7,No
+PAT5573,2024-10-12,Cardiology,Pneumonia,81,Female,2,5200,No,Private,DR106,2.0,No
+PAT5574,2024-08-01,Cardiology,COVID-19,21,Female,8,1970,No,Government,DR118,4.3,No
+PAT5575,2024-11-06,Orthopedics,Appendicitis,46,Male,5,880,Yes,Government,DR129,5.0,No
+PAT5576,2024-11-01,Cardiology,Cardiac Arrest,16,Male,4,3890,No,Private,DR128,4.4,No
+PAT5577,2024-11-12,General,UTI,16,Male,2,3070,No,Private,DR132,3.4,No
+PAT5578,2024-04-25,General,Cardiac Arrest,84,Male,8,800,Yes,Government,DR139,4.7,No
+PAT5579,2024-09-24,General,Pneumonia,29,Female,1,2450,No,Government,DR129,3.2,No
+PAT5580,2024-07-13,General,Fracture,8,Male,9,4020,No,Self-Pay,DR127,3.6,No
+PAT5581,2024-08-18,Cardiology,Pneumonia,88,Female,3,4650,No,Government,DR118,3.4,No
+PAT5582,2024-08-14,Emergency,Hypertension,3,Male,2,1710,No,Private,DR114,3.3,No
+PAT5583,2024-06-01,Emergency,Asthma,89,Female,3,1360,Yes,Self-Pay,DR133,4.3,No
+PAT5584,2024-10-28,Cardiology,Appendicitis,19,Female,5,4830,No,Private,DR108,3.6,No
+PAT5585,2024-08-07,General,Asthma,66,Male,1,690,No,Government,DR123,3.0,No
+PAT5586,2024-06-05,General,Pneumonia,79,Male,9,2570,No,Private,DR128,2.8,No
+PAT5587,2024-10-18,Orthopedics,Fracture,86,Female,3,600,No,Government,DR108,2.1,Yes
+PAT5588,2024-11-13,Cardiology,Fracture,74,Female,2,4240,No,Private,DR119,3.7,No
+PAT5589,2024-01-31,Cardiology,Diabetes Type 2,82,Female,1,1470,No,Private,DR138,2.7,No
+PAT5590,2024-11-08,Orthopedics,UTI,22,Male,3,4990,Yes,Self-Pay,DR132,2.4,No
+PAT5591,2024-02-20,Cardiology,Diabetes Type 2,46,Male,3,2680,No,NGO,DR134,4.0,Yes
+PAT5592,2024-04-16,Orthopedics,Appendicitis,13,Female,2,680,No,Self-Pay,DR120,4.0,Yes
+PAT5593,2024-11-16,ICU,Appendicitis,33,Male,5,5650,No,Self-Pay,DR103,4.3,Yes
+PAT5594,2024-04-18,Orthopedics,Appendicitis,5,Female,2,6250,No,Private,DR115,3.5,No
+PAT5595,2024-05-15,Emergency,Cardiac Arrest,77,Male,15,3660,No,Government,DR126,4.7,Yes
+PAT5596,2024-12-04,General,Diabetes Type 2,27,Male,4,980,No,Private,DR139,4.8,No
+PAT5597,2024-02-11,Cardiology,Cardiac Arrest,78,Male,7,1420,No,Private,DR104,4.4,Yes
+PAT5598,2024-03-21,General,Asthma,24,Male,1,2030,No,Self-Pay,DR101,3.9,Yes
+PAT5599,2024-05-02,Emergency,UTI,67,Male,2,1030,Yes,Government,DR114,2.9,Yes
