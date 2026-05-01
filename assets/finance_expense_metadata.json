@@ -1,0 +1,77 @@
+{
+  "dataset_description": "Corporate expense ledger for FY 2024 tracking all approved business expenditures across departments, vendors, and expense categories.",
+  "business_context": "The finance team uses this data to monitor departmental spending against budgets, identify over-budget transactions, detect unusual vendor payments, and prepare quarterly expense reports for leadership.",
+  "domain": "finance",
+  "time_period": "Jan 2024 \u2013 Dec 2024",
+  "granularity": "per-transaction",
+  "kpi_hints": [
+    "Total Spend",
+    "Over-Budget Rate",
+    "Spend by Category",
+    "Spend by Department",
+    "Recurring vs One-Time Spend"
+  ],
+  "columns": {
+    "transaction_id": {
+      "description": "Unique expense transaction identifier",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "transaction_date": {
+      "description": "Date the expense was incurred",
+      "type": "date",
+      "is_kpi": false
+    },
+    "expense_category": {
+      "description": "Type of expense (Travel, Software, Salaries, etc.)",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "vendor": {
+      "description": "Vendor or supplier name",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "department": {
+      "description": "Department that incurred the expense",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "amount_usd": {
+      "description": "Expense amount in USD",
+      "unit": "USD",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "approved_by": {
+      "description": "Manager ID who approved the expense",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "payment_method": {
+      "description": "How the expense was paid (Corporate Card, Wire Transfer, etc.)",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "budget_code": {
+      "description": "Internal budget code for cost centre allocation",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "over_budget": {
+      "description": "Whether this expense exceeded the allocated budget (Yes/No)",
+      "type": "dimension",
+      "is_kpi": true
+    },
+    "recurring": {
+      "description": "Whether this is a recurring expense (Yes/No)",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "quarter": {
+      "description": "Fiscal quarter in which the expense occurred",
+      "type": "dimension",
+      "is_kpi": false
+    }
+  }
+}

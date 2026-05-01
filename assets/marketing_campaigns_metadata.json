@@ -1,0 +1,82 @@
+{
+  "dataset_description": "Digital marketing campaign performance data for FY 2024 across all channels and regions, tracking spend, reach, engagement, and revenue attribution.",
+  "business_context": "A consumer brand's performance marketing team uses this data to optimise budget allocation across channels, measure campaign ROI, and identify the best-performing audience segments.",
+  "domain": "marketing",
+  "time_period": "Jan 2024 \u2013 Dec 2024",
+  "granularity": "per-campaign-run",
+  "kpi_hints": [
+    "ROAS",
+    "Cost Per Click",
+    "Conversion Rate",
+    "Total Spend",
+    "Revenue Generated",
+    "CTR"
+  ],
+  "columns": {
+    "campaign_id": {
+      "description": "Unique campaign identifier",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "campaign_name": {
+      "description": "Name of the marketing campaign",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "channel": {
+      "description": "Marketing channel (Google Ads, Meta, Email, etc.)",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "start_date": {
+      "description": "Campaign start date",
+      "type": "date",
+      "is_kpi": false
+    },
+    "spend_usd": {
+      "description": "Total media spend for this campaign run",
+      "unit": "USD",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "impressions": {
+      "description": "Total number of ad impressions served",
+      "unit": "count",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "clicks": {
+      "description": "Total number of clicks received",
+      "unit": "count",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "conversions": {
+      "description": "Number of desired actions completed (purchase, signup, etc.)",
+      "unit": "count",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "revenue_generated_usd": {
+      "description": "Revenue directly attributed to this campaign",
+      "unit": "USD",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "target_audience": {
+      "description": "Age bracket of the targeted audience",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "region": {
+      "description": "Geographic region targeted",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "ab_test_variant": {
+      "description": "A/B test variant used for this run (Control, Variant A, Variant B)",
+      "type": "dimension",
+      "is_kpi": false
+    }
+  }
+}

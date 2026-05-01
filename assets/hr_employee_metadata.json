@@ -1,0 +1,85 @@
+{
+  "dataset_description": "Employee-level HR dataset for FY 2024, covering attrition, compensation, performance, and engagement metrics across all departments.",
+  "business_context": "A mid-size tech company uses this data to understand why employees leave and to identify at-risk segments before they resign.",
+  "domain": "hr",
+  "time_period": "Jan 2018 \u2013 Dec 2024 (hire dates); FY 2024 snapshot",
+  "granularity": "per-employee",
+  "kpi_hints": [
+    "Attrition Rate",
+    "Average Salary",
+    "Performance Score",
+    "Satisfaction Score",
+    "Training Hours"
+  ],
+  "columns": {
+    "employee_id": {
+      "description": "Unique employee identifier",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "hire_date": {
+      "description": "Date the employee joined the company",
+      "type": "date",
+      "is_kpi": false
+    },
+    "department": {
+      "description": "Business department (Engineering, Sales, etc.)",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "job_level": {
+      "description": "Seniority level from Junior to Manager",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "salary_usd": {
+      "description": "Annual gross salary in USD",
+      "unit": "USD",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "performance_score": {
+      "description": "Annual performance rating (1=Poor to 5=Exceptional)",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "training_hours": {
+      "description": "Total training hours completed in FY 2024",
+      "unit": "hours",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "satisfaction_score": {
+      "description": "Employee engagement survey score (1\u20135)",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "overtime_hours_monthly": {
+      "description": "Average overtime hours worked per month",
+      "unit": "hours",
+      "type": "metric",
+      "is_kpi": false
+    },
+    "tenure_years": {
+      "description": "Years the employee has been with the company",
+      "unit": "years",
+      "type": "metric",
+      "is_kpi": false
+    },
+    "attrition": {
+      "description": "Whether the employee left the company (Yes/No)",
+      "type": "dimension",
+      "is_kpi": true
+    },
+    "gender": {
+      "description": "Employee gender identity",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "location": {
+      "description": "Office city location",
+      "type": "dimension",
+      "is_kpi": false
+    }
+  }
+}

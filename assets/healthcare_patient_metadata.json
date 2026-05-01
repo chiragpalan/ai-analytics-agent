@@ -1,0 +1,84 @@
+{
+  "dataset_description": "Hospital patient admission records for CY 2024 across all wards and departments, tracking clinical and financial outcomes.",
+  "business_context": "A multi-specialty hospital uses this data to monitor patient outcomes, control treatment costs, reduce readmissions, and allocate ward resources efficiently.",
+  "domain": "healthcare",
+  "time_period": "Jan 2024 \u2013 Dec 2024",
+  "granularity": "per-admission",
+  "kpi_hints": [
+    "Readmission Rate",
+    "Average Length of Stay",
+    "Treatment Cost",
+    "Patient Satisfaction",
+    "Emergency Admission Rate"
+  ],
+  "columns": {
+    "patient_id": {
+      "description": "Unique patient identifier",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "admission_date": {
+      "description": "Date the patient was admitted",
+      "type": "date",
+      "is_kpi": false
+    },
+    "ward": {
+      "description": "Hospital ward (ICU, General, Cardiology, etc.)",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "diagnosis": {
+      "description": "Primary diagnosis at admission",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "age": {
+      "description": "Patient age in years at time of admission",
+      "unit": "years",
+      "type": "metric",
+      "is_kpi": false
+    },
+    "gender": {
+      "description": "Patient biological sex",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "los_days": {
+      "description": "Length of stay in days (admission to discharge)",
+      "unit": "days",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "treatment_cost_usd": {
+      "description": "Total cost of treatment including procedures and medication",
+      "unit": "USD",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "readmitted_30d": {
+      "description": "Whether the patient was readmitted within 30 days (Yes/No)",
+      "type": "dimension",
+      "is_kpi": true
+    },
+    "insurance_type": {
+      "description": "Type of insurance coverage",
+      "type": "dimension",
+      "is_kpi": false
+    },
+    "doctor_id": {
+      "description": "Treating physician identifier",
+      "type": "identifier",
+      "is_kpi": false
+    },
+    "patient_satisfaction": {
+      "description": "Post-discharge patient satisfaction score (1=Poor to 5=Excellent)",
+      "type": "metric",
+      "is_kpi": true
+    },
+    "emergency_admission": {
+      "description": "Whether the admission was an emergency (Yes/No)",
+      "type": "dimension",
+      "is_kpi": true
+    }
+  }
+}
